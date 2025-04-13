@@ -16,7 +16,8 @@ class Emote_Config:
 
         # We choose popular models (high downloads) that are trained on MNLI
         if self.model_name == 'bert-base':
-            self.model_path = "WillHeld/bert-base-cased-mnli"
+            # self.model_path = "WillHeld/bert-base-cased-mnli"
+            self.model_path = "aloxatel/bert-base-mnli"
         elif self.model_name == 'roberta-base':
             self.model_path = "WillHeld/roberta-base-mnli"
         elif self.model_name == 'roberta-large':
