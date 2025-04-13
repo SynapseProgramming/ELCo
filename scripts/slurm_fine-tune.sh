@@ -11,11 +11,9 @@ huggingface_path=/home/r/roald/hfcache
 # model_name=roberta-large
 model_name=roberta-base
 
-source ~/venv/bin/activate
-# . /home/r/roald/ELCo/venv/bin/activate
+export CUDA_VISIBLE_DEVICES=1
 
-
-
-export CUDA_VISIBLE_DEVICES=0
-
-srun python scripts/emote.py --finetune 0 --model_name $model_name --portion 1 --hfpath $huggingface_path
+for seed in 43 44 45 46 47
+do
+    srun python scripts/emote.py --finetune 1 --model_name $model_name --portion 1 --seed $seed --hfpath $huggingface_path
+done

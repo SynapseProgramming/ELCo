@@ -1,0 +1,2765 @@
+Some weights of the model checkpoint at textattack/roberta-base-mnli were not used when initializing RobertaForSequenceClassification: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at textattack/roberta-base-mnli and are newly initialized because the shapes did not match:
+- classifier.out_proj.weight: found shape torch.Size([3, 768]) in the checkpoint and torch.Size([2, 768]) in the model instantiated
+- classifier.out_proj.bias: found shape torch.Size([3]) in the checkpoint and torch.Size([2]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+The new embeddings will be initialized from a multivariate normal distribution that has old embeddings' mean and covariance. As described in this article: https://nlp.stanford.edu/~johnhew/vocab-expansion.html. To disable this, use `mean_resizing=False`
+model_name:  roberta-base
+model_path:  textattack/roberta-base-mnli
+Epoch 1/10
+Train Loss: 0.5807551821072896
+              precision    recall  f1-score   support
+
+           0     0.6814    0.6814    0.6814      1199
+           1     0.6814    0.6814    0.6814      1199
+
+    accuracy                         0.6814      2398
+   macro avg     0.6814    0.6814    0.6814      2398
+weighted avg     0.6814    0.6814    0.6814      2398
+
+Strategy 0 Direct accuracy: 72.8, 406 / 558
+Strategy 1 Metaphorical accuracy: 63.2, 278 / 440
+Strategy 2 Semantic list accuracy: 75.0, 57 / 76
+Strategy 3 Reduplication accuracy: 56.1, 23 / 41
+Strategy 4 Single accuracy: 63.1, 53 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 68.1, 817 / 1199
+Valid Loss: 0.5398439246416092
+              precision    recall  f1-score   support
+
+           0     0.7725    0.7411    0.7565       197
+           1     0.7512    0.7817    0.7662       197
+
+    accuracy                         0.7614       394
+   macro avg     0.7619    0.7614    0.7613       394
+weighted avg     0.7619    0.7614    0.7613       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_43.csv
+Strategy 0 Direct accuracy: 79.5, 58 / 73
+Strategy 1 Metaphorical accuracy: 79.4, 77 / 97
+Strategy 2 Semantic list accuracy: 90.0, 9 / 10
+Strategy 3 Reduplication accuracy: 42.9, 3 / 7
+Strategy 4 Single accuracy: 70.0, 7 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 74.1, 146 / 197
+Test Loss: 0.4312080406781399
+              precision    recall  f1-score   support
+
+           0     0.8171    0.8108    0.8140       259
+           1     0.8123    0.8185    0.8154       259
+
+    accuracy                         0.8147       518
+   macro avg     0.8147    0.8147    0.8147       518
+weighted avg     0.8147    0.8147    0.8147       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_43.csv
+Strategy 0 Direct accuracy: 92.4, 109 / 118
+Strategy 1 Metaphorical accuracy: 69.9, 65 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 60.0, 9 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 81.1, 210 / 259
+Saving model checkpoint to /home/r/roald/hfcache/emote-roberta-base/seed_43_epoch_0.pt
+Epoch 2/10
+Train Loss: 0.42073938727378846
+              precision    recall  f1-score   support
+
+           0     0.8016    0.8224    0.8119      1199
+           1     0.8176    0.7965    0.8069      1199
+
+    accuracy                         0.8094      2398
+   macro avg     0.8096    0.8094    0.8094      2398
+weighted avg     0.8096    0.8094    0.8094      2398
+
+Strategy 0 Direct accuracy: 84.2, 470 / 558
+Strategy 1 Metaphorical accuracy: 73.2, 322 / 440
+Strategy 2 Semantic list accuracy: 88.2, 67 / 76
+Strategy 3 Reduplication accuracy: 68.3, 28 / 41
+Strategy 4 Single accuracy: 81.0, 68 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 82.2, 986 / 1199
+Valid Loss: 0.6365769644081593
+              precision    recall  f1-score   support
+
+           0     0.8309    0.5736    0.6787       197
+           1     0.6744    0.8832    0.7648       197
+
+    accuracy                         0.7284       394
+   macro avg     0.7527    0.7284    0.7218       394
+weighted avg     0.7527    0.7284    0.7218       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_43.csv
+Strategy 0 Direct accuracy: 90.4, 66 / 73
+Strategy 1 Metaphorical accuracy: 87.6, 85 / 97
+Strategy 2 Semantic list accuracy: 100.0, 10 / 10
+Strategy 3 Reduplication accuracy: 85.7, 6 / 7
+Strategy 4 Single accuracy: 70.0, 7 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 57.4, 113 / 197
+Test Loss: 0.41599536348472943
+              precision    recall  f1-score   support
+
+           0     0.8678    0.7606    0.8107       259
+           1     0.7869    0.8842    0.8327       259
+
+    accuracy                         0.8224       518
+   macro avg     0.8274    0.8224    0.8217       518
+weighted avg     0.8274    0.8224    0.8217       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_43.csv
+Strategy 0 Direct accuracy: 95.8, 113 / 118
+Strategy 1 Metaphorical accuracy: 81.7, 76 / 93
+Strategy 2 Semantic list accuracy: 91.7, 11 / 12
+Strategy 3 Reduplication accuracy: 66.7, 10 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 76.1, 197 / 259
+Epoch 3/10
+Train Loss: 0.30935739879806834
+              precision    recall  f1-score   support
+
+           0     0.8773    0.8649    0.8711      1199
+           1     0.8668    0.8791    0.8729      1199
+
+    accuracy                         0.8720      2398
+   macro avg     0.8721    0.8720    0.8720      2398
+weighted avg     0.8721    0.8720    0.8720      2398
+
+Strategy 0 Direct accuracy: 91.9, 513 / 558
+Strategy 1 Metaphorical accuracy: 83.6, 368 / 440
+Strategy 2 Semantic list accuracy: 92.1, 70 / 76
+Strategy 3 Reduplication accuracy: 82.9, 34 / 41
+Strategy 4 Single accuracy: 82.1, 69 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 86.5, 1037 / 1199
+Valid Loss: 0.6844148153066635
+              precision    recall  f1-score   support
+
+           0     0.7895    0.6853    0.7337       197
+           1     0.7220    0.8173    0.7667       197
+
+    accuracy                         0.7513       394
+   macro avg     0.7557    0.7513    0.7502       394
+weighted avg     0.7557    0.7513    0.7502       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_43.csv
+Strategy 0 Direct accuracy: 84.9, 62 / 73
+Strategy 1 Metaphorical accuracy: 81.4, 79 / 97
+Strategy 2 Semantic list accuracy: 70.0, 7 / 10
+Strategy 3 Reduplication accuracy: 85.7, 6 / 7
+Strategy 4 Single accuracy: 70.0, 7 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 68.5, 135 / 197
+Test Loss: 0.4238287414791006
+              precision    recall  f1-score   support
+
+           0     0.8458    0.8263    0.8359       259
+           1     0.8302    0.8494    0.8397       259
+
+    accuracy                         0.8378       518
+   macro avg     0.8380    0.8378    0.8378       518
+weighted avg     0.8380    0.8378    0.8378       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_43.csv
+Strategy 0 Direct accuracy: 93.2, 110 / 118
+Strategy 1 Metaphorical accuracy: 75.3, 70 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 73.3, 11 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 82.6, 214 / 259
+Epoch 4/10
+Train Loss: 0.2520335265249014
+              precision    recall  f1-score   support
+
+           0     0.9096    0.8974    0.9034      1199
+           1     0.8988    0.9108    0.9047      1199
+
+    accuracy                         0.9041      2398
+   macro avg     0.9042    0.9041    0.9041      2398
+weighted avg     0.9042    0.9041    0.9041      2398
+
+Strategy 0 Direct accuracy: 93.9, 524 / 558
+Strategy 1 Metaphorical accuracy: 89.8, 395 / 440
+Strategy 2 Semantic list accuracy: 89.5, 68 / 76
+Strategy 3 Reduplication accuracy: 75.6, 31 / 41
+Strategy 4 Single accuracy: 88.1, 74 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 89.7, 1076 / 1199
+Valid Loss: 0.6982505390048027
+              precision    recall  f1-score   support
+
+           0     0.7735    0.7107    0.7407       197
+           1     0.7324    0.7919    0.7610       197
+
+    accuracy                         0.7513       394
+   macro avg     0.7529    0.7513    0.7509       394
+weighted avg     0.7529    0.7513    0.7509       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_43.csv
+Strategy 0 Direct accuracy: 82.2, 60 / 73
+Strategy 1 Metaphorical accuracy: 77.3, 75 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 85.7, 6 / 7
+Strategy 4 Single accuracy: 70.0, 7 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 71.1, 140 / 197
+Test Loss: 0.47108192555606365
+              precision    recall  f1-score   support
+
+           0     0.8233    0.8456    0.8343       259
+           1     0.8413    0.8185    0.8297       259
+
+    accuracy                         0.8320       518
+   macro avg     0.8323    0.8320    0.8320       518
+weighted avg     0.8323    0.8320    0.8320       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_43.csv
+Strategy 0 Direct accuracy: 91.5, 108 / 118
+Strategy 1 Metaphorical accuracy: 73.1, 68 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 46.7, 7 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 84.6, 219 / 259
+Epoch 5/10
+Train Loss: 0.2227182965228955
+              precision    recall  f1-score   support
+
+           0     0.9219    0.9158    0.9188      1199
+           1     0.9163    0.9224    0.9194      1199
+
+    accuracy                         0.9191      2398
+   macro avg     0.9191    0.9191    0.9191      2398
+weighted avg     0.9191    0.9191    0.9191      2398
+
+Strategy 0 Direct accuracy: 96.1, 536 / 558
+Strategy 1 Metaphorical accuracy: 88.6, 390 / 440
+Strategy 2 Semantic list accuracy: 92.1, 70 / 76
+Strategy 3 Reduplication accuracy: 87.8, 36 / 41
+Strategy 4 Single accuracy: 88.1, 74 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 91.6, 1098 / 1199
+Valid Loss: 0.711770403161645
+              precision    recall  f1-score   support
+
+           0     0.7552    0.7360    0.7455       197
+           1     0.7426    0.7614    0.7519       197
+
+    accuracy                         0.7487       394
+   macro avg     0.7489    0.7487    0.7487       394
+weighted avg     0.7489    0.7487    0.7487       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_43.csv
+Strategy 0 Direct accuracy: 76.7, 56 / 73
+Strategy 1 Metaphorical accuracy: 76.3, 74 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 71.4, 5 / 7
+Strategy 4 Single accuracy: 70.0, 7 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 73.6, 145 / 197
+Test Loss: 0.4378288531619491
+              precision    recall  f1-score   support
+
+           0     0.8296    0.8649    0.8469       259
+           1     0.8589    0.8224    0.8402       259
+
+    accuracy                         0.8436       518
+   macro avg     0.8443    0.8436    0.8436       518
+weighted avg     0.8443    0.8436    0.8436       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_43.csv
+Strategy 0 Direct accuracy: 90.7, 107 / 118
+Strategy 1 Metaphorical accuracy: 74.2, 69 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 53.3, 8 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 86.5, 224 / 259
+Epoch 6/10
+Train Loss: 0.1797730910157164
+              precision    recall  f1-score   support
+
+           0     0.9347    0.9316    0.9332      1199
+           1     0.9318    0.9349    0.9334      1199
+
+    accuracy                         0.9333      2398
+   macro avg     0.9333    0.9333    0.9333      2398
+weighted avg     0.9333    0.9333    0.9333      2398
+
+Strategy 0 Direct accuracy: 95.7, 534 / 558
+Strategy 1 Metaphorical accuracy: 91.4, 402 / 440
+Strategy 2 Semantic list accuracy: 96.1, 73 / 76
+Strategy 3 Reduplication accuracy: 92.7, 38 / 41
+Strategy 4 Single accuracy: 88.1, 74 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 93.2, 1117 / 1199
+Valid Loss: 0.786520721167326
+              precision    recall  f1-score   support
+
+           0     0.7630    0.6701    0.7135       197
+           1     0.7059    0.7919    0.7464       197
+
+    accuracy                         0.7310       394
+   macro avg     0.7344    0.7310    0.7300       394
+weighted avg     0.7344    0.7310    0.7300       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_43.csv
+Strategy 0 Direct accuracy: 87.7, 64 / 73
+Strategy 1 Metaphorical accuracy: 75.3, 73 / 97
+Strategy 2 Semantic list accuracy: 70.0, 7 / 10
+Strategy 3 Reduplication accuracy: 71.4, 5 / 7
+Strategy 4 Single accuracy: 70.0, 7 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 67.0, 132 / 197
+Test Loss: 0.5135024331622955
+              precision    recall  f1-score   support
+
+           0     0.8159    0.8726    0.8433       259
+           1     0.8631    0.8031    0.8320       259
+
+    accuracy                         0.8378       518
+   macro avg     0.8395    0.8378    0.8376       518
+weighted avg     0.8395    0.8378    0.8376       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_43.csv
+Strategy 0 Direct accuracy: 89.8, 106 / 118
+Strategy 1 Metaphorical accuracy: 67.7, 63 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 66.7, 10 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 87.3, 226 / 259
+Epoch 7/10
+Train Loss: 0.15800862092524767
+              precision    recall  f1-score   support
+
+           0     0.9446    0.9383    0.9414      1199
+           1     0.9387    0.9450    0.9418      1199
+
+    accuracy                         0.9416      2398
+   macro avg     0.9416    0.9416    0.9416      2398
+weighted avg     0.9416    0.9416    0.9416      2398
+
+Strategy 0 Direct accuracy: 97.5, 544 / 558
+Strategy 1 Metaphorical accuracy: 92.3, 406 / 440
+Strategy 2 Semantic list accuracy: 92.1, 70 / 76
+Strategy 3 Reduplication accuracy: 95.1, 39 / 41
+Strategy 4 Single accuracy: 88.1, 74 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 93.8, 1125 / 1199
+Valid Loss: 0.7853611962497234
+              precision    recall  f1-score   support
+
+           0     0.8095    0.6904    0.7452       197
+           1     0.7301    0.8376    0.7801       197
+
+    accuracy                         0.7640       394
+   macro avg     0.7698    0.7640    0.7627       394
+weighted avg     0.7698    0.7640    0.7627       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_43.csv
+Strategy 0 Direct accuracy: 83.6, 61 / 73
+Strategy 1 Metaphorical accuracy: 84.5, 82 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 71.4, 5 / 7
+Strategy 4 Single accuracy: 90.0, 9 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 69.0, 136 / 197
+Test Loss: 0.5403898527111971
+              precision    recall  f1-score   support
+
+           0     0.8199    0.8610    0.8399       259
+           1     0.8537    0.8108    0.8317       259
+
+    accuracy                         0.8359       518
+   macro avg     0.8368    0.8359    0.8358       518
+weighted avg     0.8368    0.8359    0.8358       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_43.csv
+Strategy 0 Direct accuracy: 90.7, 107 / 118
+Strategy 1 Metaphorical accuracy: 69.9, 65 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 60.0, 9 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 86.1, 223 / 259
+Epoch 8/10
+Train Loss: 0.13830863563964765
+              precision    recall  f1-score   support
+
+           0     0.9537    0.9458    0.9497      1199
+           1     0.9462    0.9541    0.9502      1199
+
+    accuracy                         0.9500      2398
+   macro avg     0.9500    0.9500    0.9500      2398
+weighted avg     0.9500    0.9500    0.9500      2398
+
+Strategy 0 Direct accuracy: 96.8, 540 / 558
+Strategy 1 Metaphorical accuracy: 93.6, 412 / 440
+Strategy 2 Semantic list accuracy: 97.4, 74 / 76
+Strategy 3 Reduplication accuracy: 92.7, 38 / 41
+Strategy 4 Single accuracy: 95.2, 80 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 94.6, 1134 / 1199
+Valid Loss: 0.8464083728194237
+              precision    recall  f1-score   support
+
+           0     0.7143    0.7107    0.7125       197
+           1     0.7121    0.7157    0.7139       197
+
+    accuracy                         0.7132       394
+   macro avg     0.7132    0.7132    0.7132       394
+weighted avg     0.7132    0.7132    0.7132       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_43.csv
+Strategy 0 Direct accuracy: 78.1, 57 / 73
+Strategy 1 Metaphorical accuracy: 69.1, 67 / 97
+Strategy 2 Semantic list accuracy: 70.0, 7 / 10
+Strategy 3 Reduplication accuracy: 42.9, 3 / 7
+Strategy 4 Single accuracy: 70.0, 7 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 71.1, 140 / 197
+Test Loss: 0.5067951569728779
+              precision    recall  f1-score   support
+
+           0     0.7980    0.9151    0.8525       259
+           1     0.9005    0.7683    0.8292       259
+
+    accuracy                         0.8417       518
+   macro avg     0.8492    0.8417    0.8408       518
+weighted avg     0.8492    0.8417    0.8408       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_43.csv
+Strategy 0 Direct accuracy: 85.6, 101 / 118
+Strategy 1 Metaphorical accuracy: 65.6, 61 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 53.3, 8 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 91.5, 237 / 259
+Epoch 9/10
+Train Loss: 0.12311296570425233
+              precision    recall  f1-score   support
+
+           0     0.9615    0.9575    0.9595      1199
+           1     0.9576    0.9616    0.9596      1199
+
+    accuracy                         0.9595      2398
+   macro avg     0.9596    0.9595    0.9595      2398
+weighted avg     0.9596    0.9595    0.9595      2398
+
+Strategy 0 Direct accuracy: 97.3, 543 / 558
+Strategy 1 Metaphorical accuracy: 94.8, 417 / 440
+Strategy 2 Semantic list accuracy: 96.1, 73 / 76
+Strategy 3 Reduplication accuracy: 97.6, 40 / 41
+Strategy 4 Single accuracy: 95.2, 80 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 95.7, 1148 / 1199
+Valid Loss: 0.9058117231726647
+              precision    recall  f1-score   support
+
+           0     0.8121    0.6802    0.7403       197
+           1     0.7249    0.8426    0.7793       197
+
+    accuracy                         0.7614       394
+   macro avg     0.7685    0.7614    0.7598       394
+weighted avg     0.7685    0.7614    0.7598       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_43.csv
+Strategy 0 Direct accuracy: 87.7, 64 / 73
+Strategy 1 Metaphorical accuracy: 85.6, 83 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 57.1, 4 / 7
+Strategy 4 Single accuracy: 70.0, 7 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 68.0, 134 / 197
+Test Loss: 0.5513991319546194
+              precision    recall  f1-score   support
+
+           0     0.8140    0.8108    0.8124       259
+           1     0.8115    0.8147    0.8131       259
+
+    accuracy                         0.8127       518
+   macro avg     0.8127    0.8127    0.8127       518
+weighted avg     0.8127    0.8127    0.8127       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_43.csv
+Strategy 0 Direct accuracy: 87.3, 103 / 118
+Strategy 1 Metaphorical accuracy: 74.2, 69 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 66.7, 10 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 81.1, 210 / 259
+Epoch 10/10
+Train Loss: 0.1003490961001565
+              precision    recall  f1-score   support
+
+           0     0.9689    0.9616    0.9653      1199
+           1     0.9619    0.9691    0.9655      1199
+
+    accuracy                         0.9654      2398
+   macro avg     0.9654    0.9654    0.9654      2398
+weighted avg     0.9654    0.9654    0.9654      2398
+
+Strategy 0 Direct accuracy: 97.8, 546 / 558
+Strategy 1 Metaphorical accuracy: 96.8, 426 / 440
+Strategy 2 Semantic list accuracy: 97.4, 74 / 76
+Strategy 3 Reduplication accuracy: 100.0, 41 / 41
+Strategy 4 Single accuracy: 89.3, 75 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 96.2, 1153 / 1199
+Valid Loss: 0.9353058214858174
+              precision    recall  f1-score   support
+
+           0     0.7572    0.6650    0.7081       197
+           1     0.7014    0.7868    0.7416       197
+
+    accuracy                         0.7259       394
+   macro avg     0.7293    0.7259    0.7249       394
+weighted avg     0.7293    0.7259    0.7249       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_43.csv
+Strategy 0 Direct accuracy: 82.2, 60 / 73
+Strategy 1 Metaphorical accuracy: 78.4, 76 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 57.1, 4 / 7
+Strategy 4 Single accuracy: 70.0, 7 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 66.5, 131 / 197
+Test Loss: 0.5973973931942248
+              precision    recall  f1-score   support
+
+           0     0.8240    0.8494    0.8365       259
+           1     0.8446    0.8185    0.8314       259
+
+    accuracy                         0.8340       518
+   macro avg     0.8343    0.8340    0.8339       518
+weighted avg     0.8343    0.8340    0.8339       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_43.csv
+Strategy 0 Direct accuracy: 88.1, 104 / 118
+Strategy 1 Metaphorical accuracy: 74.2, 69 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 66.7, 10 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 84.9, 220 / 259
+Best Epoch: 7
+Best Val Accuracy: 76.4 at Epoch 7
+Some weights of the model checkpoint at textattack/roberta-base-mnli were not used when initializing RobertaForSequenceClassification: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at textattack/roberta-base-mnli and are newly initialized because the shapes did not match:
+- classifier.out_proj.weight: found shape torch.Size([3, 768]) in the checkpoint and torch.Size([2, 768]) in the model instantiated
+- classifier.out_proj.bias: found shape torch.Size([3]) in the checkpoint and torch.Size([2]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+The new embeddings will be initialized from a multivariate normal distribution that has old embeddings' mean and covariance. As described in this article: https://nlp.stanford.edu/~johnhew/vocab-expansion.html. To disable this, use `mean_resizing=False`
+model_name:  roberta-base
+model_path:  textattack/roberta-base-mnli
+Epoch 1/10
+Train Loss: 0.6071563520034154
+              precision    recall  f1-score   support
+
+           0     0.6520    0.7031    0.6766      1199
+           1     0.6778    0.6247    0.6502      1199
+
+    accuracy                         0.6639      2398
+   macro avg     0.6649    0.6639    0.6634      2398
+weighted avg     0.6649    0.6639    0.6634      2398
+
+Strategy 0 Direct accuracy: 68.5, 382 / 558
+Strategy 1 Metaphorical accuracy: 56.1, 247 / 440
+Strategy 2 Semantic list accuracy: 77.6, 59 / 76
+Strategy 3 Reduplication accuracy: 39.0, 16 / 41
+Strategy 4 Single accuracy: 53.6, 45 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 70.3, 843 / 1199
+Valid Loss: 0.5547455435991288
+              precision    recall  f1-score   support
+
+           0     0.7158    0.6904    0.7028       197
+           1     0.7010    0.7259    0.7132       197
+
+    accuracy                         0.7081       394
+   macro avg     0.7084    0.7081    0.7080       394
+weighted avg     0.7084    0.7081    0.7080       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_44.csv
+Strategy 0 Direct accuracy: 76.7, 56 / 73
+Strategy 1 Metaphorical accuracy: 73.2, 71 / 97
+Strategy 2 Semantic list accuracy: 60.0, 6 / 10
+Strategy 3 Reduplication accuracy: 57.1, 4 / 7
+Strategy 4 Single accuracy: 60.0, 6 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 69.0, 136 / 197
+Test Loss: 0.4437782001314741
+              precision    recall  f1-score   support
+
+           0     0.7969    0.8031    0.8000       259
+           1     0.8016    0.7954    0.7984       259
+
+    accuracy                         0.7992       518
+   macro avg     0.7992    0.7992    0.7992       518
+weighted avg     0.7992    0.7992    0.7992       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_44.csv
+Strategy 0 Direct accuracy: 89.0, 105 / 118
+Strategy 1 Metaphorical accuracy: 73.1, 68 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 33.3, 5 / 15
+Strategy 4 Single accuracy: 85.7, 18 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 80.3, 208 / 259
+Saving model checkpoint to /home/r/roald/hfcache/emote-roberta-base/seed_44_epoch_0.pt
+Epoch 2/10
+Train Loss: 0.432848194539547
+              precision    recall  f1-score   support
+
+           0     0.8002    0.8015    0.8008      1199
+           1     0.8012    0.7998    0.8005      1199
+
+    accuracy                         0.8007      2398
+   macro avg     0.8007    0.8007    0.8007      2398
+weighted avg     0.8007    0.8007    0.8007      2398
+
+Strategy 0 Direct accuracy: 85.1, 475 / 558
+Strategy 1 Metaphorical accuracy: 74.5, 328 / 440
+Strategy 2 Semantic list accuracy: 86.8, 66 / 76
+Strategy 3 Reduplication accuracy: 70.7, 29 / 41
+Strategy 4 Single accuracy: 72.6, 61 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 80.2, 961 / 1199
+Valid Loss: 0.5191700986027717
+              precision    recall  f1-score   support
+
+           0     0.7634    0.7208    0.7415       197
+           1     0.7356    0.7766    0.7556       197
+
+    accuracy                         0.7487       394
+   macro avg     0.7495    0.7487    0.7485       394
+weighted avg     0.7495    0.7487    0.7485       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_44.csv
+Strategy 0 Direct accuracy: 82.2, 60 / 73
+Strategy 1 Metaphorical accuracy: 75.3, 73 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 71.4, 5 / 7
+Strategy 4 Single accuracy: 70.0, 7 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 72.1, 142 / 197
+Test Loss: 0.419713439589197
+              precision    recall  f1-score   support
+
+           0     0.7867    0.8687    0.8257       259
+           1     0.8534    0.7645    0.8065       259
+
+    accuracy                         0.8166       518
+   macro avg     0.8201    0.8166    0.8161       518
+weighted avg     0.8201    0.8166    0.8161       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_44.csv
+Strategy 0 Direct accuracy: 85.6, 101 / 118
+Strategy 1 Metaphorical accuracy: 65.6, 61 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 46.7, 7 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 86.9, 225 / 259
+Epoch 3/10
+Train Loss: 0.3247672913471858
+              precision    recall  f1-score   support
+
+           0     0.8698    0.8691    0.8694      1199
+           1     0.8692    0.8699    0.8695      1199
+
+    accuracy                         0.8695      2398
+   macro avg     0.8695    0.8695    0.8695      2398
+weighted avg     0.8695    0.8695    0.8695      2398
+
+Strategy 0 Direct accuracy: 91.9, 513 / 558
+Strategy 1 Metaphorical accuracy: 82.3, 362 / 440
+Strategy 2 Semantic list accuracy: 92.1, 70 / 76
+Strategy 3 Reduplication accuracy: 73.2, 30 / 41
+Strategy 4 Single accuracy: 81.0, 68 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 86.9, 1042 / 1199
+Valid Loss: 0.6127079117298126
+              precision    recall  f1-score   support
+
+           0     0.7814    0.7259    0.7526       197
+           1     0.7441    0.7970    0.7696       197
+
+    accuracy                         0.7614       394
+   macro avg     0.7627    0.7614    0.7611       394
+weighted avg     0.7627    0.7614    0.7611       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_44.csv
+Strategy 0 Direct accuracy: 86.3, 63 / 73
+Strategy 1 Metaphorical accuracy: 75.3, 73 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 57.1, 4 / 7
+Strategy 4 Single accuracy: 90.0, 9 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 72.6, 143 / 197
+Test Loss: 0.39973728957049776
+              precision    recall  f1-score   support
+
+           0     0.7793    0.8996    0.8351       259
+           1     0.8813    0.7452    0.8075       259
+
+    accuracy                         0.8224       518
+   macro avg     0.8303    0.8224    0.8213       518
+weighted avg     0.8303    0.8224    0.8213       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_44.csv
+Strategy 0 Direct accuracy: 85.6, 101 / 118
+Strategy 1 Metaphorical accuracy: 60.2, 56 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 53.3, 8 / 15
+Strategy 4 Single accuracy: 85.7, 18 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 90.0, 233 / 259
+Epoch 4/10
+Train Loss: 0.25967280941704907
+              precision    recall  f1-score   support
+
+           0     0.8950    0.9024    0.8987      1199
+           1     0.9016    0.8941    0.8978      1199
+
+    accuracy                         0.8982      2398
+   macro avg     0.8983    0.8982    0.8982      2398
+weighted avg     0.8983    0.8982    0.8982      2398
+
+Strategy 0 Direct accuracy: 92.3, 515 / 558
+Strategy 1 Metaphorical accuracy: 86.6, 381 / 440
+Strategy 2 Semantic list accuracy: 92.1, 70 / 76
+Strategy 3 Reduplication accuracy: 82.9, 34 / 41
+Strategy 4 Single accuracy: 85.7, 72 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 90.2, 1082 / 1199
+Valid Loss: 0.615544404387474
+              precision    recall  f1-score   support
+
+           0     0.8452    0.6650    0.7443       197
+           1     0.7238    0.8782    0.7936       197
+
+    accuracy                         0.7716       394
+   macro avg     0.7845    0.7716    0.7689       394
+weighted avg     0.7845    0.7716    0.7689       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_44.csv
+Strategy 0 Direct accuracy: 91.8, 67 / 73
+Strategy 1 Metaphorical accuracy: 85.6, 83 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 85.7, 6 / 7
+Strategy 4 Single accuracy: 90.0, 9 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 66.5, 131 / 197
+Test Loss: 0.370854284501437
+              precision    recall  f1-score   support
+
+           0     0.8152    0.8687    0.8411       259
+           1     0.8595    0.8031    0.8303       259
+
+    accuracy                         0.8359       518
+   macro avg     0.8374    0.8359    0.8357       518
+weighted avg     0.8374    0.8359    0.8357       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_44.csv
+Strategy 0 Direct accuracy: 88.1, 104 / 118
+Strategy 1 Metaphorical accuracy: 69.9, 65 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 66.7, 10 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 86.9, 225 / 259
+Epoch 5/10
+Train Loss: 0.2124676585321625
+              precision    recall  f1-score   support
+
+           0     0.9299    0.9183    0.9240      1199
+           1     0.9193    0.9308    0.9250      1199
+
+    accuracy                         0.9245      2398
+   macro avg     0.9246    0.9245    0.9245      2398
+weighted avg     0.9246    0.9245    0.9245      2398
+
+Strategy 0 Direct accuracy: 96.4, 538 / 558
+Strategy 1 Metaphorical accuracy: 89.8, 395 / 440
+Strategy 2 Semantic list accuracy: 92.1, 70 / 76
+Strategy 3 Reduplication accuracy: 90.2, 37 / 41
+Strategy 4 Single accuracy: 90.5, 76 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 91.8, 1101 / 1199
+Valid Loss: 0.7956727601587772
+              precision    recall  f1-score   support
+
+           0     0.8828    0.5736    0.6954       197
+           1     0.6842    0.9239    0.7862       197
+
+    accuracy                         0.7487       394
+   macro avg     0.7835    0.7487    0.7408       394
+weighted avg     0.7835    0.7487    0.7408       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_44.csv
+Strategy 0 Direct accuracy: 93.2, 68 / 73
+Strategy 1 Metaphorical accuracy: 93.8, 91 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 85.7, 6 / 7
+Strategy 4 Single accuracy: 90.0, 9 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 57.4, 113 / 197
+Test Loss: 0.4279794247651642
+              precision    recall  f1-score   support
+
+           0     0.8803    0.7954    0.8357       259
+           1     0.8134    0.8919    0.8508       259
+
+    accuracy                         0.8436       518
+   macro avg     0.8469    0.8436    0.8433       518
+weighted avg     0.8469    0.8436    0.8433       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_44.csv
+Strategy 0 Direct accuracy: 94.1, 111 / 118
+Strategy 1 Metaphorical accuracy: 83.9, 78 / 93
+Strategy 2 Semantic list accuracy: 100.0, 12 / 12
+Strategy 3 Reduplication accuracy: 73.3, 11 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 79.5, 206 / 259
+Epoch 6/10
+Train Loss: 0.17302859305093685
+              precision    recall  f1-score   support
+
+           0     0.9425    0.9291    0.9357      1199
+           1     0.9301    0.9433    0.9366      1199
+
+    accuracy                         0.9362      2398
+   macro avg     0.9363    0.9362    0.9362      2398
+weighted avg     0.9363    0.9362    0.9362      2398
+
+Strategy 0 Direct accuracy: 97.3, 543 / 558
+Strategy 1 Metaphorical accuracy: 92.7, 408 / 440
+Strategy 2 Semantic list accuracy: 92.1, 70 / 76
+Strategy 3 Reduplication accuracy: 87.8, 36 / 41
+Strategy 4 Single accuracy: 88.1, 74 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 92.9, 1114 / 1199
+Valid Loss: 0.746228898614645
+              precision    recall  f1-score   support
+
+           0     0.8035    0.7056    0.7514       197
+           1     0.7376    0.8274    0.7799       197
+
+    accuracy                         0.7665       394
+   macro avg     0.7705    0.7665    0.7656       394
+weighted avg     0.7705    0.7665    0.7656       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_44.csv
+Strategy 0 Direct accuracy: 87.7, 64 / 73
+Strategy 1 Metaphorical accuracy: 80.4, 78 / 97
+Strategy 2 Semantic list accuracy: 70.0, 7 / 10
+Strategy 3 Reduplication accuracy: 71.4, 5 / 7
+Strategy 4 Single accuracy: 90.0, 9 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 70.6, 139 / 197
+Test Loss: 0.4751483260682135
+              precision    recall  f1-score   support
+
+           0     0.8063    0.8842    0.8435       259
+           1     0.8718    0.7876    0.8276       259
+
+    accuracy                         0.8359       518
+   macro avg     0.8391    0.8359    0.8355       518
+weighted avg     0.8391    0.8359    0.8355       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_44.csv
+Strategy 0 Direct accuracy: 86.4, 102 / 118
+Strategy 1 Metaphorical accuracy: 68.8, 64 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 60.0, 9 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 88.4, 229 / 259
+Epoch 7/10
+Train Loss: 0.13945025604839126
+              precision    recall  f1-score   support
+
+           0     0.9536    0.9433    0.9484      1199
+           1     0.9439    0.9541    0.9490      1199
+
+    accuracy                         0.9487      2398
+   macro avg     0.9488    0.9487    0.9487      2398
+weighted avg     0.9488    0.9487    0.9487      2398
+
+Strategy 0 Direct accuracy: 97.7, 545 / 558
+Strategy 1 Metaphorical accuracy: 93.9, 413 / 440
+Strategy 2 Semantic list accuracy: 96.1, 73 / 76
+Strategy 3 Reduplication accuracy: 92.7, 38 / 41
+Strategy 4 Single accuracy: 89.3, 75 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 94.3, 1131 / 1199
+Valid Loss: 0.8219366635382176
+              precision    recall  f1-score   support
+
+           0     0.8333    0.6091    0.7038       197
+           1     0.6920    0.8782    0.7740       197
+
+    accuracy                         0.7437       394
+   macro avg     0.7627    0.7437    0.7389       394
+weighted avg     0.7627    0.7437    0.7389       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_44.csv
+Strategy 0 Direct accuracy: 93.2, 68 / 73
+Strategy 1 Metaphorical accuracy: 85.6, 83 / 97
+Strategy 2 Semantic list accuracy: 70.0, 7 / 10
+Strategy 3 Reduplication accuracy: 85.7, 6 / 7
+Strategy 4 Single accuracy: 90.0, 9 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 60.9, 120 / 197
+Test Loss: 0.4645554897460071
+              precision    recall  f1-score   support
+
+           0     0.8725    0.8456    0.8588       259
+           1     0.8502    0.8764    0.8631       259
+
+    accuracy                         0.8610       518
+   macro avg     0.8613    0.8610    0.8610       518
+weighted avg     0.8613    0.8610    0.8610       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_44.csv
+Strategy 0 Direct accuracy: 93.2, 110 / 118
+Strategy 1 Metaphorical accuracy: 81.7, 76 / 93
+Strategy 2 Semantic list accuracy: 91.7, 11 / 12
+Strategy 3 Reduplication accuracy: 73.3, 11 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 84.6, 219 / 259
+Epoch 8/10
+Train Loss: 0.11709412484119336
+              precision    recall  f1-score   support
+
+           0     0.9709    0.9466    0.9586      1199
+           1     0.9479    0.9716    0.9596      1199
+
+    accuracy                         0.9591      2398
+   macro avg     0.9594    0.9591    0.9591      2398
+weighted avg     0.9594    0.9591    0.9591      2398
+
+Strategy 0 Direct accuracy: 97.7, 545 / 558
+Strategy 1 Metaphorical accuracy: 96.8, 426 / 440
+Strategy 2 Semantic list accuracy: 97.4, 74 / 76
+Strategy 3 Reduplication accuracy: 100.0, 41 / 41
+Strategy 4 Single accuracy: 94.0, 79 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 94.7, 1135 / 1199
+Valid Loss: 0.9512636793963611
+              precision    recall  f1-score   support
+
+           0     0.8594    0.5584    0.6769       197
+           1     0.6729    0.9086    0.7732       197
+
+    accuracy                         0.7335       394
+   macro avg     0.7662    0.7335    0.7251       394
+weighted avg     0.7662    0.7335    0.7251       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_44.csv
+Strategy 0 Direct accuracy: 93.2, 68 / 73
+Strategy 1 Metaphorical accuracy: 90.7, 88 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 85.7, 6 / 7
+Strategy 4 Single accuracy: 90.0, 9 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 55.8, 110 / 197
+Test Loss: 0.5805771107023413
+              precision    recall  f1-score   support
+
+           0     0.8761    0.7915    0.8316       259
+           1     0.8099    0.8880    0.8471       259
+
+    accuracy                         0.8398       518
+   macro avg     0.8430    0.8398    0.8394       518
+weighted avg     0.8430    0.8398    0.8394       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_44.csv
+Strategy 0 Direct accuracy: 94.1, 111 / 118
+Strategy 1 Metaphorical accuracy: 82.8, 77 / 93
+Strategy 2 Semantic list accuracy: 100.0, 12 / 12
+Strategy 3 Reduplication accuracy: 73.3, 11 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 79.2, 205 / 259
+Epoch 9/10
+Train Loss: 0.11624500849594673
+              precision    recall  f1-score   support
+
+           0     0.9591    0.9583    0.9587      1199
+           1     0.9583    0.9591    0.9587      1199
+
+    accuracy                         0.9587      2398
+   macro avg     0.9587    0.9587    0.9587      2398
+weighted avg     0.9587    0.9587    0.9587      2398
+
+Strategy 0 Direct accuracy: 97.5, 544 / 558
+Strategy 1 Metaphorical accuracy: 95.2, 419 / 440
+Strategy 2 Semantic list accuracy: 96.1, 73 / 76
+Strategy 3 Reduplication accuracy: 92.7, 38 / 41
+Strategy 4 Single accuracy: 90.5, 76 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 95.8, 1149 / 1199
+Valid Loss: 0.7900714073330164
+              precision    recall  f1-score   support
+
+           0     0.8023    0.7005    0.7480       197
+           1     0.7342    0.8274    0.7780       197
+
+    accuracy                         0.7640       394
+   macro avg     0.7683    0.7640    0.7630       394
+weighted avg     0.7683    0.7640    0.7630       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_44.csv
+Strategy 0 Direct accuracy: 87.7, 64 / 73
+Strategy 1 Metaphorical accuracy: 80.4, 78 / 97
+Strategy 2 Semantic list accuracy: 70.0, 7 / 10
+Strategy 3 Reduplication accuracy: 71.4, 5 / 7
+Strategy 4 Single accuracy: 90.0, 9 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 70.1, 138 / 197
+Test Loss: 0.5073318715969269
+              precision    recall  f1-score   support
+
+           0     0.8139    0.8610    0.8368       259
+           1     0.8525    0.8031    0.8270       259
+
+    accuracy                         0.8320       518
+   macro avg     0.8332    0.8320    0.8319       518
+weighted avg     0.8332    0.8320    0.8319       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_44.csv
+Strategy 0 Direct accuracy: 88.1, 104 / 118
+Strategy 1 Metaphorical accuracy: 71.0, 66 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 60.0, 9 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 86.1, 223 / 259
+Epoch 10/10
+Train Loss: 0.0960733636158208
+              precision    recall  f1-score   support
+
+           0     0.9722    0.9616    0.9669      1199
+           1     0.9620    0.9725    0.9672      1199
+
+    accuracy                         0.9671      2398
+   macro avg     0.9671    0.9671    0.9671      2398
+weighted avg     0.9671    0.9671    0.9671      2398
+
+Strategy 0 Direct accuracy: 98.0, 547 / 558
+Strategy 1 Metaphorical accuracy: 96.4, 424 / 440
+Strategy 2 Semantic list accuracy: 98.7, 75 / 76
+Strategy 3 Reduplication accuracy: 97.6, 40 / 41
+Strategy 4 Single accuracy: 95.2, 80 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 96.2, 1153 / 1199
+Valid Loss: 1.0147013552300632
+              precision    recall  f1-score   support
+
+           0     0.8562    0.6345    0.7289       197
+           1     0.7097    0.8934    0.7910       197
+
+    accuracy                         0.7640       394
+   macro avg     0.7829    0.7640    0.7599       394
+weighted avg     0.7829    0.7640    0.7599       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_44.csv
+Strategy 0 Direct accuracy: 93.2, 68 / 73
+Strategy 1 Metaphorical accuracy: 87.6, 85 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 85.7, 6 / 7
+Strategy 4 Single accuracy: 90.0, 9 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 63.5, 125 / 197
+Test Loss: 0.5741264376027341
+              precision    recall  f1-score   support
+
+           0     0.8533    0.8533    0.8533       259
+           1     0.8533    0.8533    0.8533       259
+
+    accuracy                         0.8533       518
+   macro avg     0.8533    0.8533    0.8533       518
+weighted avg     0.8533    0.8533    0.8533       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_44.csv
+Strategy 0 Direct accuracy: 92.4, 109 / 118
+Strategy 1 Metaphorical accuracy: 78.5, 73 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 66.7, 10 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 85.3, 221 / 259
+Best Epoch: 4
+Best Val Accuracy: 77.2 at Epoch 4
+Some weights of the model checkpoint at textattack/roberta-base-mnli were not used when initializing RobertaForSequenceClassification: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at textattack/roberta-base-mnli and are newly initialized because the shapes did not match:
+- classifier.out_proj.weight: found shape torch.Size([3, 768]) in the checkpoint and torch.Size([2, 768]) in the model instantiated
+- classifier.out_proj.bias: found shape torch.Size([3]) in the checkpoint and torch.Size([2]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+The new embeddings will be initialized from a multivariate normal distribution that has old embeddings' mean and covariance. As described in this article: https://nlp.stanford.edu/~johnhew/vocab-expansion.html. To disable this, use `mean_resizing=False`
+model_name:  roberta-base
+model_path:  textattack/roberta-base-mnli
+Epoch 1/10
+Train Loss: 0.5910744261741638
+              precision    recall  f1-score   support
+
+           0     0.7008    0.6681    0.6840      1199
+           1     0.6829    0.7148    0.6985      1199
+
+    accuracy                         0.6914      2398
+   macro avg     0.6918    0.6914    0.6912      2398
+weighted avg     0.6918    0.6914    0.6912      2398
+
+Strategy 0 Direct accuracy: 75.8, 423 / 558
+Strategy 1 Metaphorical accuracy: 63.4, 279 / 440
+Strategy 2 Semantic list accuracy: 84.2, 64 / 76
+Strategy 3 Reduplication accuracy: 75.6, 31 / 41
+Strategy 4 Single accuracy: 71.4, 60 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 66.8, 801 / 1199
+Valid Loss: 0.5716573631763459
+              precision    recall  f1-score   support
+
+           0     0.7872    0.5635    0.6568       197
+           1     0.6601    0.8477    0.7422       197
+
+    accuracy                         0.7056       394
+   macro avg     0.7237    0.7056    0.6995       394
+weighted avg     0.7237    0.7056    0.6995       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_45.csv
+Strategy 0 Direct accuracy: 87.7, 64 / 73
+Strategy 1 Metaphorical accuracy: 84.5, 82 / 97
+Strategy 2 Semantic list accuracy: 90.0, 9 / 10
+Strategy 3 Reduplication accuracy: 71.4, 5 / 7
+Strategy 4 Single accuracy: 70.0, 7 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 56.3, 111 / 197
+Test Loss: 0.46498370893073804
+              precision    recall  f1-score   support
+
+           0     0.8835    0.7027    0.7828       259
+           1     0.7532    0.9073    0.8231       259
+
+    accuracy                         0.8050       518
+   macro avg     0.8184    0.8050    0.8030       518
+weighted avg     0.8184    0.8050    0.8030       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_45.csv
+Strategy 0 Direct accuracy: 95.8, 113 / 118
+Strategy 1 Metaphorical accuracy: 84.9, 79 / 93
+Strategy 2 Semantic list accuracy: 100.0, 12 / 12
+Strategy 3 Reduplication accuracy: 80.0, 12 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 70.3, 182 / 259
+Saving model checkpoint to /home/r/roald/hfcache/emote-roberta-base/seed_45_epoch_0.pt
+Epoch 2/10
+Train Loss: 0.42118493805329005
+              precision    recall  f1-score   support
+
+           0     0.8072    0.8032    0.8052      1199
+           1     0.8041    0.8082    0.8062      1199
+
+    accuracy                         0.8057      2398
+   macro avg     0.8057    0.8057    0.8057      2398
+weighted avg     0.8057    0.8057    0.8057      2398
+
+Strategy 0 Direct accuracy: 86.4, 482 / 558
+Strategy 1 Metaphorical accuracy: 73.6, 324 / 440
+Strategy 2 Semantic list accuracy: 85.5, 65 / 76
+Strategy 3 Reduplication accuracy: 73.2, 30 / 41
+Strategy 4 Single accuracy: 81.0, 68 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 80.3, 963 / 1199
+Valid Loss: 0.5601794403791428
+              precision    recall  f1-score   support
+
+           0     0.7069    0.8325    0.7646       197
+           1     0.7963    0.6548    0.7187       197
+
+    accuracy                         0.7437       394
+   macro avg     0.7516    0.7437    0.7416       394
+weighted avg     0.7516    0.7437    0.7416       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_45.csv
+Strategy 0 Direct accuracy: 74.0, 54 / 73
+Strategy 1 Metaphorical accuracy: 63.9, 62 / 97
+Strategy 2 Semantic list accuracy: 60.0, 6 / 10
+Strategy 3 Reduplication accuracy: 42.9, 3 / 7
+Strategy 4 Single accuracy: 40.0, 4 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 83.2, 164 / 197
+Test Loss: 0.42968488145958295
+              precision    recall  f1-score   support
+
+           0     0.7642    0.9382    0.8423       259
+           1     0.9200    0.7104    0.8017       259
+
+    accuracy                         0.8243       518
+   macro avg     0.8421    0.8243    0.8220       518
+weighted avg     0.8421    0.8243    0.8220       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_45.csv
+Strategy 0 Direct accuracy: 83.1, 98 / 118
+Strategy 1 Metaphorical accuracy: 59.1, 55 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 26.7, 4 / 15
+Strategy 4 Single accuracy: 81.0, 17 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 93.8, 243 / 259
+Epoch 3/10
+Train Loss: 0.34209451913833616
+              precision    recall  f1-score   support
+
+           0     0.8574    0.8474    0.8523      1199
+           1     0.8491    0.8590    0.8541      1199
+
+    accuracy                         0.8532      2398
+   macro avg     0.8533    0.8532    0.8532      2398
+weighted avg     0.8533    0.8532    0.8532      2398
+
+Strategy 0 Direct accuracy: 90.7, 506 / 558
+Strategy 1 Metaphorical accuracy: 79.8, 351 / 440
+Strategy 2 Semantic list accuracy: 92.1, 70 / 76
+Strategy 3 Reduplication accuracy: 80.5, 33 / 41
+Strategy 4 Single accuracy: 83.3, 70 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 84.7, 1016 / 1199
+Valid Loss: 0.5308514213562012
+              precision    recall  f1-score   support
+
+           0     0.7719    0.6701    0.7174       197
+           1     0.7085    0.8020    0.7524       197
+
+    accuracy                         0.7360       394
+   macro avg     0.7402    0.7360    0.7349       394
+weighted avg     0.7402    0.7360    0.7349       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_45.csv
+Strategy 0 Direct accuracy: 80.8, 59 / 73
+Strategy 1 Metaphorical accuracy: 80.4, 78 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 85.7, 6 / 7
+Strategy 4 Single accuracy: 70.0, 7 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 67.0, 132 / 197
+Test Loss: 0.38813862588369485
+              precision    recall  f1-score   support
+
+           0     0.8251    0.8378    0.8314       259
+           1     0.8353    0.8224    0.8288       259
+
+    accuracy                         0.8301       518
+   macro avg     0.8302    0.8301    0.8301       518
+weighted avg     0.8302    0.8301    0.8301       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_45.csv
+Strategy 0 Direct accuracy: 93.2, 110 / 118
+Strategy 1 Metaphorical accuracy: 73.1, 68 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 46.7, 7 / 15
+Strategy 4 Single accuracy: 85.7, 18 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 83.8, 217 / 259
+Epoch 4/10
+Train Loss: 0.2639304436246554
+              precision    recall  f1-score   support
+
+           0     0.8976    0.8991    0.8983      1199
+           1     0.8989    0.8974    0.8982      1199
+
+    accuracy                         0.8982      2398
+   macro avg     0.8982    0.8982    0.8982      2398
+weighted avg     0.8982    0.8982    0.8982      2398
+
+Strategy 0 Direct accuracy: 93.5, 522 / 558
+Strategy 1 Metaphorical accuracy: 85.5, 376 / 440
+Strategy 2 Semantic list accuracy: 92.1, 70 / 76
+Strategy 3 Reduplication accuracy: 82.9, 34 / 41
+Strategy 4 Single accuracy: 88.1, 74 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 89.9, 1078 / 1199
+Valid Loss: 0.5813892780244351
+              precision    recall  f1-score   support
+
+           0     0.7692    0.7107    0.7388       197
+           1     0.7311    0.7868    0.7579       197
+
+    accuracy                         0.7487       394
+   macro avg     0.7502    0.7487    0.7484       394
+weighted avg     0.7502    0.7487    0.7484       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_45.csv
+Strategy 0 Direct accuracy: 84.9, 62 / 73
+Strategy 1 Metaphorical accuracy: 76.3, 74 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 57.1, 4 / 7
+Strategy 4 Single accuracy: 70.0, 7 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 71.1, 140 / 197
+Test Loss: 0.40013178821766016
+              precision    recall  f1-score   support
+
+           0     0.7943    0.8649    0.8281       259
+           1     0.8517    0.7761    0.8121       259
+
+    accuracy                         0.8205       518
+   macro avg     0.8230    0.8205    0.8201       518
+weighted avg     0.8230    0.8205    0.8201       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_45.csv
+Strategy 0 Direct accuracy: 85.6, 101 / 118
+Strategy 1 Metaphorical accuracy: 72.0, 67 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 33.3, 5 / 15
+Strategy 4 Single accuracy: 85.7, 18 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 86.5, 224 / 259
+Epoch 5/10
+Train Loss: 0.21145525706311066
+              precision    recall  f1-score   support
+
+           0     0.9205    0.9274    0.9240      1199
+           1     0.9269    0.9199    0.9234      1199
+
+    accuracy                         0.9237      2398
+   macro avg     0.9237    0.9237    0.9237      2398
+weighted avg     0.9237    0.9237    0.9237      2398
+
+Strategy 0 Direct accuracy: 93.5, 522 / 558
+Strategy 1 Metaphorical accuracy: 90.2, 397 / 440
+Strategy 2 Semantic list accuracy: 92.1, 70 / 76
+Strategy 3 Reduplication accuracy: 90.2, 37 / 41
+Strategy 4 Single accuracy: 91.7, 77 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 92.7, 1112 / 1199
+Valid Loss: 0.6573678976297379
+              precision    recall  f1-score   support
+
+           0     0.8431    0.6548    0.7371       197
+           1     0.7178    0.8782    0.7900       197
+
+    accuracy                         0.7665       394
+   macro avg     0.7805    0.7665    0.7635       394
+weighted avg     0.7805    0.7665    0.7635       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_45.csv
+Strategy 0 Direct accuracy: 91.8, 67 / 73
+Strategy 1 Metaphorical accuracy: 84.5, 82 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 85.7, 6 / 7
+Strategy 4 Single accuracy: 100.0, 10 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 65.5, 129 / 197
+Test Loss: 0.42968080570977746
+              precision    recall  f1-score   support
+
+           0     0.8659    0.8224    0.8436       259
+           1     0.8309    0.8726    0.8512       259
+
+    accuracy                         0.8475       518
+   macro avg     0.8484    0.8475    0.8474       518
+weighted avg     0.8484    0.8475    0.8474       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_45.csv
+Strategy 0 Direct accuracy: 94.1, 111 / 118
+Strategy 1 Metaphorical accuracy: 82.8, 77 / 93
+Strategy 2 Semantic list accuracy: 91.7, 11 / 12
+Strategy 3 Reduplication accuracy: 53.3, 8 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 82.2, 213 / 259
+Epoch 6/10
+Train Loss: 0.17249311313653987
+              precision    recall  f1-score   support
+
+           0     0.9411    0.9333    0.9372      1199
+           1     0.9338    0.9416    0.9377      1199
+
+    accuracy                         0.9374      2398
+   macro avg     0.9375    0.9374    0.9374      2398
+weighted avg     0.9375    0.9374    0.9374      2398
+
+Strategy 0 Direct accuracy: 96.2, 537 / 558
+Strategy 1 Metaphorical accuracy: 92.3, 406 / 440
+Strategy 2 Semantic list accuracy: 96.1, 73 / 76
+Strategy 3 Reduplication accuracy: 95.1, 39 / 41
+Strategy 4 Single accuracy: 88.1, 74 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 93.3, 1119 / 1199
+Valid Loss: 0.6650559829175472
+              precision    recall  f1-score   support
+
+           0     0.7966    0.7157    0.7540       197
+           1     0.7419    0.8173    0.7778       197
+
+    accuracy                         0.7665       394
+   macro avg     0.7693    0.7665    0.7659       394
+weighted avg     0.7693    0.7665    0.7659       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_45.csv
+Strategy 0 Direct accuracy: 90.4, 66 / 73
+Strategy 1 Metaphorical accuracy: 75.3, 73 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 57.1, 4 / 7
+Strategy 4 Single accuracy: 100.0, 10 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 71.6, 141 / 197
+Test Loss: 0.4717799785236518
+              precision    recall  f1-score   support
+
+           0     0.8216    0.8533    0.8371       259
+           1     0.8474    0.8147    0.8307       259
+
+    accuracy                         0.8340       518
+   macro avg     0.8345    0.8340    0.8339       518
+weighted avg     0.8345    0.8340    0.8339       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_45.csv
+Strategy 0 Direct accuracy: 89.8, 106 / 118
+Strategy 1 Metaphorical accuracy: 74.2, 69 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 46.7, 7 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 85.3, 221 / 259
+Epoch 7/10
+Train Loss: 0.14657710062960783
+              precision    recall  f1-score   support
+
+           0     0.9469    0.9516    0.9493      1199
+           1     0.9514    0.9466    0.9490      1199
+
+    accuracy                         0.9491      2398
+   macro avg     0.9491    0.9491    0.9491      2398
+weighted avg     0.9491    0.9491    0.9491      2398
+
+Strategy 0 Direct accuracy: 97.5, 544 / 558
+Strategy 1 Metaphorical accuracy: 92.3, 406 / 440
+Strategy 2 Semantic list accuracy: 96.1, 73 / 76
+Strategy 3 Reduplication accuracy: 92.7, 38 / 41
+Strategy 4 Single accuracy: 88.1, 74 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 95.2, 1141 / 1199
+Valid Loss: 0.7379748064279557
+              precision    recall  f1-score   support
+
+           0     0.8435    0.6294    0.7209       197
+           1     0.7045    0.8832    0.7838       197
+
+    accuracy                         0.7563       394
+   macro avg     0.7740    0.7563    0.7524       394
+weighted avg     0.7740    0.7563    0.7524       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_45.csv
+Strategy 0 Direct accuracy: 93.2, 68 / 73
+Strategy 1 Metaphorical accuracy: 84.5, 82 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 85.7, 6 / 7
+Strategy 4 Single accuracy: 100.0, 10 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 62.9, 124 / 197
+Test Loss: 0.49562436836122564
+              precision    recall  f1-score   support
+
+           0     0.8648    0.8147    0.8390       259
+           1     0.8248    0.8726    0.8480       259
+
+    accuracy                         0.8436       518
+   macro avg     0.8448    0.8436    0.8435       518
+weighted avg     0.8448    0.8436    0.8435       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_45.csv
+Strategy 0 Direct accuracy: 93.2, 110 / 118
+Strategy 1 Metaphorical accuracy: 82.8, 77 / 93
+Strategy 2 Semantic list accuracy: 91.7, 11 / 12
+Strategy 3 Reduplication accuracy: 60.0, 9 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 81.5, 211 / 259
+Epoch 8/10
+Train Loss: 0.12860589699198802
+              precision    recall  f1-score   support
+
+           0     0.9628    0.9491    0.9559      1199
+           1     0.9498    0.9633    0.9565      1199
+
+    accuracy                         0.9562      2398
+   macro avg     0.9563    0.9562    0.9562      2398
+weighted avg     0.9563    0.9562    0.9562      2398
+
+Strategy 0 Direct accuracy: 97.3, 543 / 558
+Strategy 1 Metaphorical accuracy: 95.9, 422 / 440
+Strategy 2 Semantic list accuracy: 96.1, 73 / 76
+Strategy 3 Reduplication accuracy: 97.6, 40 / 41
+Strategy 4 Single accuracy: 91.7, 77 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 94.9, 1138 / 1199
+Valid Loss: 0.6777997030317784
+              precision    recall  f1-score   support
+
+           0     0.7989    0.7259    0.7606       197
+           1     0.7488    0.8173    0.7816       197
+
+    accuracy                         0.7716       394
+   macro avg     0.7739    0.7716    0.7711       394
+weighted avg     0.7739    0.7716    0.7711       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_45.csv
+Strategy 0 Direct accuracy: 86.3, 63 / 73
+Strategy 1 Metaphorical accuracy: 79.4, 77 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 71.4, 5 / 7
+Strategy 4 Single accuracy: 80.0, 8 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 72.6, 143 / 197
+Test Loss: 0.4490405812887757
+              precision    recall  f1-score   support
+
+           0     0.8198    0.8958    0.8561       259
+           1     0.8851    0.8031    0.8421       259
+
+    accuracy                         0.8494       518
+   macro avg     0.8524    0.8494    0.8491       518
+weighted avg     0.8524    0.8494    0.8491       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_45.csv
+Strategy 0 Direct accuracy: 89.0, 105 / 118
+Strategy 1 Metaphorical accuracy: 73.1, 68 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 46.7, 7 / 15
+Strategy 4 Single accuracy: 85.7, 18 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 89.6, 232 / 259
+Epoch 9/10
+Train Loss: 0.1067623194369177
+              precision    recall  f1-score   support
+
+           0     0.9616    0.9608    0.9612      1199
+           1     0.9608    0.9616    0.9612      1199
+
+    accuracy                         0.9612      2398
+   macro avg     0.9612    0.9612    0.9612      2398
+weighted avg     0.9612    0.9612    0.9612      2398
+
+Strategy 0 Direct accuracy: 97.3, 543 / 558
+Strategy 1 Metaphorical accuracy: 95.9, 422 / 440
+Strategy 2 Semantic list accuracy: 94.7, 72 / 76
+Strategy 3 Reduplication accuracy: 90.2, 37 / 41
+Strategy 4 Single accuracy: 94.0, 79 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 96.1, 1152 / 1199
+Valid Loss: 0.798531205393374
+              precision    recall  f1-score   support
+
+           0     0.8047    0.6904    0.7432       197
+           1     0.7289    0.8325    0.7773       197
+
+    accuracy                         0.7614       394
+   macro avg     0.7668    0.7614    0.7602       394
+weighted avg     0.7668    0.7614    0.7602       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_45.csv
+Strategy 0 Direct accuracy: 86.3, 63 / 73
+Strategy 1 Metaphorical accuracy: 79.4, 77 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 85.7, 6 / 7
+Strategy 4 Single accuracy: 100.0, 10 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 69.0, 136 / 197
+Test Loss: 0.4580037465431925
+              precision    recall  f1-score   support
+
+           0     0.8631    0.8031    0.8320       259
+           1     0.8159    0.8726    0.8433       259
+
+    accuracy                         0.8378       518
+   macro avg     0.8395    0.8378    0.8376       518
+weighted avg     0.8395    0.8378    0.8376       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_45.csv
+Strategy 0 Direct accuracy: 91.5, 108 / 118
+Strategy 1 Metaphorical accuracy: 83.9, 78 / 93
+Strategy 2 Semantic list accuracy: 100.0, 12 / 12
+Strategy 3 Reduplication accuracy: 60.0, 9 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 80.3, 208 / 259
+Epoch 10/10
+Train Loss: 0.10834149760504563
+              precision    recall  f1-score   support
+
+           0     0.9631    0.9591    0.9611      1199
+           1     0.9593    0.9633    0.9613      1199
+
+    accuracy                         0.9612      2398
+   macro avg     0.9612    0.9612    0.9612      2398
+weighted avg     0.9612    0.9612    0.9612      2398
+
+Strategy 0 Direct accuracy: 98.2, 548 / 558
+Strategy 1 Metaphorical accuracy: 94.8, 417 / 440
+Strategy 2 Semantic list accuracy: 94.7, 72 / 76
+Strategy 3 Reduplication accuracy: 95.1, 39 / 41
+Strategy 4 Single accuracy: 94.0, 79 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 95.9, 1150 / 1199
+Valid Loss: 0.826917064525187
+              precision    recall  f1-score   support
+
+           0     0.8873    0.6396    0.7434       197
+           1     0.7183    0.9188    0.8062       197
+
+    accuracy                         0.7792       394
+   macro avg     0.8028    0.7792    0.7748       394
+weighted avg     0.8028    0.7792    0.7748       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_45.csv
+Strategy 0 Direct accuracy: 95.9, 70 / 73
+Strategy 1 Metaphorical accuracy: 88.7, 86 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 100.0, 7 / 7
+Strategy 4 Single accuracy: 100.0, 10 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 64.0, 126 / 197
+Test Loss: 0.5291826061227105
+              precision    recall  f1-score   support
+
+           0     0.8889    0.7722    0.8264       259
+           1     0.7986    0.9035    0.8478       259
+
+    accuracy                         0.8378       518
+   macro avg     0.8438    0.8378    0.8371       518
+weighted avg     0.8438    0.8378    0.8371       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_45.csv
+Strategy 0 Direct accuracy: 95.8, 113 / 118
+Strategy 1 Metaphorical accuracy: 82.8, 77 / 93
+Strategy 2 Semantic list accuracy: 100.0, 12 / 12
+Strategy 3 Reduplication accuracy: 80.0, 12 / 15
+Strategy 4 Single accuracy: 95.2, 20 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 77.2, 200 / 259
+Best Epoch: 10
+Best Val Accuracy: 77.9 at Epoch 10
+Some weights of the model checkpoint at textattack/roberta-base-mnli were not used when initializing RobertaForSequenceClassification: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at textattack/roberta-base-mnli and are newly initialized because the shapes did not match:
+- classifier.out_proj.weight: found shape torch.Size([3, 768]) in the checkpoint and torch.Size([2, 768]) in the model instantiated
+- classifier.out_proj.bias: found shape torch.Size([3]) in the checkpoint and torch.Size([2]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+The new embeddings will be initialized from a multivariate normal distribution that has old embeddings' mean and covariance. As described in this article: https://nlp.stanford.edu/~johnhew/vocab-expansion.html. To disable this, use `mean_resizing=False`
+model_name:  roberta-base
+model_path:  textattack/roberta-base-mnli
+Epoch 1/10
+Train Loss: 0.5890791171789169
+              precision    recall  f1-score   support
+
+           0     0.6984    0.6430    0.6696      1199
+           1     0.6692    0.7223    0.6947      1199
+
+    accuracy                         0.6827      2398
+   macro avg     0.6838    0.6827    0.6822      2398
+weighted avg     0.6838    0.6827    0.6822      2398
+
+Strategy 0 Direct accuracy: 75.4, 421 / 558
+Strategy 1 Metaphorical accuracy: 65.9, 290 / 440
+Strategy 2 Semantic list accuracy: 85.5, 65 / 76
+Strategy 3 Reduplication accuracy: 70.7, 29 / 41
+Strategy 4 Single accuracy: 72.6, 61 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 64.3, 771 / 1199
+Valid Loss: 0.565736533999443
+              precision    recall  f1-score   support
+
+           0     0.7635    0.5736    0.6551       197
+           1     0.6585    0.8223    0.7314       197
+
+    accuracy                         0.6980       394
+   macro avg     0.7110    0.6980    0.6932       394
+weighted avg     0.7110    0.6980    0.6932       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_46.csv
+Strategy 0 Direct accuracy: 82.2, 60 / 73
+Strategy 1 Metaphorical accuracy: 85.6, 83 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 71.4, 5 / 7
+Strategy 4 Single accuracy: 60.0, 6 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 57.4, 113 / 197
+Test Loss: 0.4421089305119081
+              precision    recall  f1-score   support
+
+           0     0.8354    0.7838    0.8088       259
+           1     0.7964    0.8456    0.8202       259
+
+    accuracy                         0.8147       518
+   macro avg     0.8159    0.8147    0.8145       518
+weighted avg     0.8159    0.8147    0.8145       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_46.csv
+Strategy 0 Direct accuracy: 91.5, 108 / 118
+Strategy 1 Metaphorical accuracy: 80.6, 75 / 93
+Strategy 2 Semantic list accuracy: 91.7, 11 / 12
+Strategy 3 Reduplication accuracy: 53.3, 8 / 15
+Strategy 4 Single accuracy: 81.0, 17 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 78.4, 203 / 259
+Saving model checkpoint to /home/r/roald/hfcache/emote-roberta-base/seed_46_epoch_0.pt
+Epoch 2/10
+Train Loss: 0.4302273506919543
+              precision    recall  f1-score   support
+
+           0     0.8252    0.7798    0.8019      1199
+           1     0.7913    0.8349    0.8125      1199
+
+    accuracy                         0.8073      2398
+   macro avg     0.8083    0.8073    0.8072      2398
+weighted avg     0.8083    0.8073    0.8072      2398
+
+Strategy 0 Direct accuracy: 88.2, 492 / 558
+Strategy 1 Metaphorical accuracy: 77.0, 339 / 440
+Strategy 2 Semantic list accuracy: 94.7, 72 / 76
+Strategy 3 Reduplication accuracy: 73.2, 30 / 41
+Strategy 4 Single accuracy: 81.0, 68 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 78.0, 935 / 1199
+Valid Loss: 0.5722745794057846
+              precision    recall  f1-score   support
+
+           0     0.7553    0.7208    0.7377       197
+           1     0.7330    0.7665    0.7494       197
+
+    accuracy                         0.7437       394
+   macro avg     0.7442    0.7437    0.7435       394
+weighted avg     0.7442    0.7437    0.7435       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_46.csv
+Strategy 0 Direct accuracy: 80.8, 59 / 73
+Strategy 1 Metaphorical accuracy: 75.3, 73 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 71.4, 5 / 7
+Strategy 4 Single accuracy: 60.0, 6 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 72.1, 142 / 197
+Test Loss: 0.3961102957978393
+              precision    recall  f1-score   support
+
+           0     0.7952    0.8996    0.8442       259
+           1     0.8844    0.7683    0.8223       259
+
+    accuracy                         0.8340       518
+   macro avg     0.8398    0.8340    0.8333       518
+weighted avg     0.8398    0.8340    0.8333       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_46.csv
+Strategy 0 Direct accuracy: 83.9, 99 / 118
+Strategy 1 Metaphorical accuracy: 66.7, 62 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 60.0, 9 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 90.0, 233 / 259
+Epoch 3/10
+Train Loss: 0.33409101704756416
+              precision    recall  f1-score   support
+
+           0     0.8577    0.8599    0.8588      1199
+           1     0.8595    0.8574    0.8585      1199
+
+    accuracy                         0.8586      2398
+   macro avg     0.8586    0.8586    0.8586      2398
+weighted avg     0.8586    0.8586    0.8586      2398
+
+Strategy 0 Direct accuracy: 90.7, 506 / 558
+Strategy 1 Metaphorical accuracy: 80.5, 354 / 440
+Strategy 2 Semantic list accuracy: 86.8, 66 / 76
+Strategy 3 Reduplication accuracy: 87.8, 36 / 41
+Strategy 4 Single accuracy: 78.6, 66 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 86.0, 1031 / 1199
+Valid Loss: 0.6063586822152138
+              precision    recall  f1-score   support
+
+           0     0.8276    0.6091    0.7018       197
+           1     0.6908    0.8731    0.7713       197
+
+    accuracy                         0.7411       394
+   macro avg     0.7592    0.7411    0.7365       394
+weighted avg     0.7592    0.7411    0.7365       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_46.csv
+Strategy 0 Direct accuracy: 90.4, 66 / 73
+Strategy 1 Metaphorical accuracy: 87.6, 85 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 85.7, 6 / 7
+Strategy 4 Single accuracy: 70.0, 7 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 60.9, 120 / 197
+Test Loss: 0.41352869671854103
+              precision    recall  f1-score   support
+
+           0     0.8333    0.8301    0.8317       259
+           1     0.8308    0.8340    0.8324       259
+
+    accuracy                         0.8320       518
+   macro avg     0.8321    0.8320    0.8320       518
+weighted avg     0.8321    0.8320    0.8320       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_46.csv
+Strategy 0 Direct accuracy: 94.1, 111 / 118
+Strategy 1 Metaphorical accuracy: 74.2, 69 / 93
+Strategy 2 Semantic list accuracy: 75.0, 9 / 12
+Strategy 3 Reduplication accuracy: 53.3, 8 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 83.0, 215 / 259
+Epoch 4/10
+Train Loss: 0.2638606346150239
+              precision    recall  f1-score   support
+
+           0     0.9074    0.8824    0.8947      1199
+           1     0.8856    0.9099    0.8976      1199
+
+    accuracy                         0.8962      2398
+   macro avg     0.8965    0.8962    0.8961      2398
+weighted avg     0.8965    0.8962    0.8961      2398
+
+Strategy 0 Direct accuracy: 93.2, 520 / 558
+Strategy 1 Metaphorical accuracy: 88.0, 387 / 440
+Strategy 2 Semantic list accuracy: 94.7, 72 / 76
+Strategy 3 Reduplication accuracy: 90.2, 37 / 41
+Strategy 4 Single accuracy: 89.3, 75 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 88.2, 1058 / 1199
+Valid Loss: 0.6695199657976627
+              precision    recall  f1-score   support
+
+           0     0.7541    0.7005    0.7263       197
+           1     0.7204    0.7716    0.7451       197
+
+    accuracy                         0.7360       394
+   macro avg     0.7372    0.7360    0.7357       394
+weighted avg     0.7372    0.7360    0.7357       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_46.csv
+Strategy 0 Direct accuracy: 80.8, 59 / 73
+Strategy 1 Metaphorical accuracy: 75.3, 73 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 71.4, 5 / 7
+Strategy 4 Single accuracy: 70.0, 7 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 70.1, 138 / 197
+Test Loss: 0.4248185009893143
+              precision    recall  f1-score   support
+
+           0     0.7869    0.8842    0.8327       259
+           1     0.8678    0.7606    0.8107       259
+
+    accuracy                         0.8224       518
+   macro avg     0.8274    0.8224    0.8217       518
+weighted avg     0.8274    0.8224    0.8217       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_46.csv
+Strategy 0 Direct accuracy: 85.6, 101 / 118
+Strategy 1 Metaphorical accuracy: 64.5, 60 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 46.7, 7 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 88.4, 229 / 259
+Epoch 5/10
+Train Loss: 0.213429487037162
+              precision    recall  f1-score   support
+
+           0     0.9246    0.9099    0.9172      1199
+           1     0.9113    0.9258    0.9185      1199
+
+    accuracy                         0.9178      2398
+   macro avg     0.9180    0.9178    0.9178      2398
+weighted avg     0.9180    0.9178    0.9178      2398
+
+Strategy 0 Direct accuracy: 96.2, 537 / 558
+Strategy 1 Metaphorical accuracy: 89.5, 394 / 440
+Strategy 2 Semantic list accuracy: 92.1, 70 / 76
+Strategy 3 Reduplication accuracy: 92.7, 38 / 41
+Strategy 4 Single accuracy: 84.5, 71 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 91.0, 1091 / 1199
+Valid Loss: 0.722333595752716
+              precision    recall  f1-score   support
+
+           0     0.8026    0.6193    0.6991       197
+           1     0.6901    0.8477    0.7608       197
+
+    accuracy                         0.7335       394
+   macro avg     0.7464    0.7335    0.7300       394
+weighted avg     0.7464    0.7335    0.7300       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_46.csv
+Strategy 0 Direct accuracy: 89.0, 65 / 73
+Strategy 1 Metaphorical accuracy: 84.5, 82 / 97
+Strategy 2 Semantic list accuracy: 70.0, 7 / 10
+Strategy 3 Reduplication accuracy: 85.7, 6 / 7
+Strategy 4 Single accuracy: 70.0, 7 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 61.9, 122 / 197
+Test Loss: 0.4050421505376245
+              precision    recall  f1-score   support
+
+           0     0.8678    0.8108    0.8383       259
+           1     0.8225    0.8764    0.8486       259
+
+    accuracy                         0.8436       518
+   macro avg     0.8451    0.8436    0.8435       518
+weighted avg     0.8451    0.8436    0.8435       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_46.csv
+Strategy 0 Direct accuracy: 93.2, 110 / 118
+Strategy 1 Metaphorical accuracy: 79.6, 74 / 93
+Strategy 2 Semantic list accuracy: 91.7, 11 / 12
+Strategy 3 Reduplication accuracy: 86.7, 13 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 81.1, 210 / 259
+Epoch 6/10
+Train Loss: 0.19010612008472283
+              precision    recall  f1-score   support
+
+           0     0.9411    0.9058    0.9231      1199
+           1     0.9092    0.9433    0.9259      1199
+
+    accuracy                         0.9245      2398
+   macro avg     0.9251    0.9245    0.9245      2398
+weighted avg     0.9251    0.9245    0.9245      2398
+
+Strategy 0 Direct accuracy: 96.1, 536 / 558
+Strategy 1 Metaphorical accuracy: 92.3, 406 / 440
+Strategy 2 Semantic list accuracy: 94.7, 72 / 76
+Strategy 3 Reduplication accuracy: 95.1, 39 / 41
+Strategy 4 Single accuracy: 92.9, 78 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 90.6, 1086 / 1199
+Valid Loss: 0.7087217570096255
+              precision    recall  f1-score   support
+
+           0     0.8531    0.6193    0.7176       197
+           1     0.7012    0.8934    0.7857       197
+
+    accuracy                         0.7563       394
+   macro avg     0.7772    0.7563    0.7517       394
+weighted avg     0.7772    0.7563    0.7517       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_46.csv
+Strategy 0 Direct accuracy: 94.5, 69 / 73
+Strategy 1 Metaphorical accuracy: 85.6, 83 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 85.7, 6 / 7
+Strategy 4 Single accuracy: 100.0, 10 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 61.9, 122 / 197
+Test Loss: 0.47006651239864755
+              precision    recall  f1-score   support
+
+           0     0.8613    0.7915    0.8249       259
+           1     0.8071    0.8726    0.8386       259
+
+    accuracy                         0.8320       518
+   macro avg     0.8342    0.8320    0.8318       518
+weighted avg     0.8342    0.8320    0.8318       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_46.csv
+Strategy 0 Direct accuracy: 94.1, 111 / 118
+Strategy 1 Metaphorical accuracy: 80.6, 75 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 73.3, 11 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 79.2, 205 / 259
+Epoch 7/10
+Train Loss: 0.14302402651558319
+              precision    recall  f1-score   support
+
+           0     0.9568    0.9425    0.9496      1199
+           1     0.9433    0.9575    0.9503      1199
+
+    accuracy                         0.9500      2398
+   macro avg     0.9501    0.9500    0.9500      2398
+weighted avg     0.9501    0.9500    0.9500      2398
+
+Strategy 0 Direct accuracy: 97.0, 541 / 558
+Strategy 1 Metaphorical accuracy: 94.3, 415 / 440
+Strategy 2 Semantic list accuracy: 97.4, 74 / 76
+Strategy 3 Reduplication accuracy: 100.0, 41 / 41
+Strategy 4 Single accuracy: 91.7, 77 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 94.2, 1130 / 1199
+Valid Loss: 0.7974449862167239
+              precision    recall  f1-score   support
+
+           0     0.8487    0.6548    0.7393       197
+           1     0.7190    0.8832    0.7927       197
+
+    accuracy                         0.7690       394
+   macro avg     0.7838    0.7690    0.7660       394
+weighted avg     0.7838    0.7690    0.7660       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_46.csv
+Strategy 0 Direct accuracy: 91.8, 67 / 73
+Strategy 1 Metaphorical accuracy: 85.6, 83 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 85.7, 6 / 7
+Strategy 4 Single accuracy: 100.0, 10 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 65.5, 129 / 197
+Test Loss: 0.562871476861112
+              precision    recall  f1-score   support
+
+           0     0.8498    0.8301    0.8398       259
+           1     0.8340    0.8533    0.8435       259
+
+    accuracy                         0.8417       518
+   macro avg     0.8419    0.8417    0.8417       518
+weighted avg     0.8419    0.8417    0.8417       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_46.csv
+Strategy 0 Direct accuracy: 91.5, 108 / 118
+Strategy 1 Metaphorical accuracy: 77.4, 72 / 93
+Strategy 2 Semantic list accuracy: 91.7, 11 / 12
+Strategy 3 Reduplication accuracy: 73.3, 11 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 83.0, 215 / 259
+Epoch 8/10
+Train Loss: 0.13154456542183957
+              precision    recall  f1-score   support
+
+           0     0.9625    0.9408    0.9515      1199
+           1     0.9421    0.9633    0.9526      1199
+
+    accuracy                         0.9520      2398
+   macro avg     0.9523    0.9520    0.9520      2398
+weighted avg     0.9523    0.9520    0.9520      2398
+
+Strategy 0 Direct accuracy: 98.2, 548 / 558
+Strategy 1 Metaphorical accuracy: 93.9, 413 / 440
+Strategy 2 Semantic list accuracy: 97.4, 74 / 76
+Strategy 3 Reduplication accuracy: 95.1, 39 / 41
+Strategy 4 Single accuracy: 96.4, 81 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 94.1, 1128 / 1199
+Valid Loss: 0.951978553980589
+              precision    recall  f1-score   support
+
+           0     0.9083    0.5533    0.6877       197
+           1     0.6788    0.9442    0.7898       197
+
+    accuracy                         0.7487       394
+   macro avg     0.7936    0.7487    0.7388       394
+weighted avg     0.7936    0.7487    0.7388       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_46.csv
+Strategy 0 Direct accuracy: 94.5, 69 / 73
+Strategy 1 Metaphorical accuracy: 95.9, 93 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 85.7, 6 / 7
+Strategy 4 Single accuracy: 100.0, 10 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 55.3, 109 / 197
+Test Loss: 0.5843652520667423
+              precision    recall  f1-score   support
+
+           0     0.8696    0.7722    0.8180       259
+           1     0.7951    0.8842    0.8373       259
+
+    accuracy                         0.8282       518
+   macro avg     0.8324    0.8282    0.8276       518
+weighted avg     0.8324    0.8282    0.8276       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_46.csv
+Strategy 0 Direct accuracy: 94.1, 111 / 118
+Strategy 1 Metaphorical accuracy: 81.7, 76 / 93
+Strategy 2 Semantic list accuracy: 100.0, 12 / 12
+Strategy 3 Reduplication accuracy: 73.3, 11 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 77.2, 200 / 259
+Epoch 9/10
+Train Loss: 0.11258604780460398
+              precision    recall  f1-score   support
+
+           0     0.9604    0.9508    0.9556      1199
+           1     0.9513    0.9608    0.9560      1199
+
+    accuracy                         0.9558      2398
+   macro avg     0.9558    0.9558    0.9558      2398
+weighted avg     0.9558    0.9558    0.9558      2398
+
+Strategy 0 Direct accuracy: 97.0, 541 / 558
+Strategy 1 Metaphorical accuracy: 95.0, 418 / 440
+Strategy 2 Semantic list accuracy: 97.4, 74 / 76
+Strategy 3 Reduplication accuracy: 97.6, 40 / 41
+Strategy 4 Single accuracy: 94.0, 79 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 95.1, 1140 / 1199
+Valid Loss: 0.9017759442701936
+              precision    recall  f1-score   support
+
+           0     0.8302    0.6701    0.7416       197
+           1     0.7234    0.8629    0.7870       197
+
+    accuracy                         0.7665       394
+   macro avg     0.7768    0.7665    0.7643       394
+weighted avg     0.7768    0.7665    0.7643       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_46.csv
+Strategy 0 Direct accuracy: 91.8, 67 / 73
+Strategy 1 Metaphorical accuracy: 81.4, 79 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 85.7, 6 / 7
+Strategy 4 Single accuracy: 100.0, 10 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 67.0, 132 / 197
+Test Loss: 0.6302707251443556
+              precision    recall  f1-score   support
+
+           0     0.8308    0.8533    0.8419       259
+           1     0.8492    0.8263    0.8376       259
+
+    accuracy                         0.8398       518
+   macro avg     0.8400    0.8398    0.8397       518
+weighted avg     0.8400    0.8398    0.8397       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_46.csv
+Strategy 0 Direct accuracy: 90.7, 107 / 118
+Strategy 1 Metaphorical accuracy: 75.3, 70 / 93
+Strategy 2 Semantic list accuracy: 91.7, 11 / 12
+Strategy 3 Reduplication accuracy: 53.3, 8 / 15
+Strategy 4 Single accuracy: 85.7, 18 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 85.3, 221 / 259
+Epoch 10/10
+Train Loss: 0.08396958619045715
+              precision    recall  f1-score   support
+
+           0     0.9754    0.9600    0.9676      1199
+           1     0.9606    0.9758    0.9681      1199
+
+    accuracy                         0.9679      2398
+   macro avg     0.9680    0.9679    0.9679      2398
+weighted avg     0.9680    0.9679    0.9679      2398
+
+Strategy 0 Direct accuracy: 98.0, 547 / 558
+Strategy 1 Metaphorical accuracy: 97.3, 428 / 440
+Strategy 2 Semantic list accuracy: 98.7, 75 / 76
+Strategy 3 Reduplication accuracy: 95.1, 39 / 41
+Strategy 4 Single accuracy: 96.4, 81 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 96.0, 1151 / 1199
+Valid Loss: 1.0464183569326997
+              precision    recall  f1-score   support
+
+           0     0.7857    0.6701    0.7233       197
+           1     0.7124    0.8173    0.7612       197
+
+    accuracy                         0.7437       394
+   macro avg     0.7491    0.7437    0.7423       394
+weighted avg     0.7491    0.7437    0.7423       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_46.csv
+Strategy 0 Direct accuracy: 87.7, 64 / 73
+Strategy 1 Metaphorical accuracy: 76.3, 74 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 71.4, 5 / 7
+Strategy 4 Single accuracy: 100.0, 10 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 67.0, 132 / 197
+Test Loss: 0.6751461016423436
+              precision    recall  f1-score   support
+
+           0     0.8423    0.8456    0.8439       259
+           1     0.8450    0.8417    0.8433       259
+
+    accuracy                         0.8436       518
+   macro avg     0.8436    0.8436    0.8436       518
+weighted avg     0.8436    0.8436    0.8436       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_46.csv
+Strategy 0 Direct accuracy: 90.7, 107 / 118
+Strategy 1 Metaphorical accuracy: 76.3, 71 / 93
+Strategy 2 Semantic list accuracy: 91.7, 11 / 12
+Strategy 3 Reduplication accuracy: 66.7, 10 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 84.6, 219 / 259
+Best Epoch: 7
+Best Val Accuracy: 76.9 at Epoch 7
+Some weights of the model checkpoint at textattack/roberta-base-mnli were not used when initializing RobertaForSequenceClassification: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at textattack/roberta-base-mnli and are newly initialized because the shapes did not match:
+- classifier.out_proj.weight: found shape torch.Size([3, 768]) in the checkpoint and torch.Size([2, 768]) in the model instantiated
+- classifier.out_proj.bias: found shape torch.Size([3]) in the checkpoint and torch.Size([2]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+The new embeddings will be initialized from a multivariate normal distribution that has old embeddings' mean and covariance. As described in this article: https://nlp.stanford.edu/~johnhew/vocab-expansion.html. To disable this, use `mean_resizing=False`
+model_name:  roberta-base
+model_path:  textattack/roberta-base-mnli
+Epoch 1/10
+Train Loss: 0.5870715192953746
+              precision    recall  f1-score   support
+
+           0     0.7071    0.6464    0.6754      1199
+           1     0.6743    0.7323    0.7021      1199
+
+    accuracy                         0.6893      2398
+   macro avg     0.6907    0.6893    0.6888      2398
+weighted avg     0.6907    0.6893    0.6888      2398
+
+Strategy 0 Direct accuracy: 79.6, 444 / 558
+Strategy 1 Metaphorical accuracy: 65.2, 287 / 440
+Strategy 2 Semantic list accuracy: 85.5, 65 / 76
+Strategy 3 Reduplication accuracy: 63.4, 26 / 41
+Strategy 4 Single accuracy: 66.7, 56 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 64.6, 775 / 1199
+Valid Loss: 0.5684621912240982
+              precision    recall  f1-score   support
+
+           0     0.7220    0.7513    0.7363       197
+           1     0.7407    0.7107    0.7254       197
+
+    accuracy                         0.7310       394
+   macro avg     0.7313    0.7310    0.7309       394
+weighted avg     0.7313    0.7310    0.7309       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_47.csv
+Strategy 0 Direct accuracy: 76.7, 56 / 73
+Strategy 1 Metaphorical accuracy: 71.1, 69 / 97
+Strategy 2 Semantic list accuracy: 60.0, 6 / 10
+Strategy 3 Reduplication accuracy: 42.9, 3 / 7
+Strategy 4 Single accuracy: 60.0, 6 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 75.1, 148 / 197
+Test Loss: 0.42102028158578003
+              precision    recall  f1-score   support
+
+           0     0.7832    0.8649    0.8220       259
+           1     0.8491    0.7606    0.8024       259
+
+    accuracy                         0.8127       518
+   macro avg     0.8162    0.8127    0.8122       518
+weighted avg     0.8162    0.8127    0.8122       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_47.csv
+Strategy 0 Direct accuracy: 83.9, 99 / 118
+Strategy 1 Metaphorical accuracy: 66.7, 62 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 53.3, 8 / 15
+Strategy 4 Single accuracy: 85.7, 18 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 86.5, 224 / 259
+Saving model checkpoint to /home/r/roald/hfcache/emote-roberta-base/seed_47_epoch_0.pt
+Epoch 2/10
+Train Loss: 0.42519779354333875
+              precision    recall  f1-score   support
+
+           0     0.8123    0.8048    0.8085      1199
+           1     0.8066    0.8140    0.8103      1199
+
+    accuracy                         0.8094      2398
+   macro avg     0.8095    0.8094    0.8094      2398
+weighted avg     0.8095    0.8094    0.8094      2398
+
+Strategy 0 Direct accuracy: 87.8, 490 / 558
+Strategy 1 Metaphorical accuracy: 74.3, 327 / 440
+Strategy 2 Semantic list accuracy: 89.5, 68 / 76
+Strategy 3 Reduplication accuracy: 70.7, 29 / 41
+Strategy 4 Single accuracy: 73.8, 62 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 80.5, 965 / 1199
+Valid Loss: 0.5452524957060814
+              precision    recall  f1-score   support
+
+           0     0.7602    0.6599    0.7065       197
+           1     0.6996    0.7919    0.7429       197
+
+    accuracy                         0.7259       394
+   macro avg     0.7299    0.7259    0.7247       394
+weighted avg     0.7299    0.7259    0.7247       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_47.csv
+Strategy 0 Direct accuracy: 79.5, 58 / 73
+Strategy 1 Metaphorical accuracy: 80.4, 78 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 71.4, 5 / 7
+Strategy 4 Single accuracy: 70.0, 7 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 66.0, 130 / 197
+Test Loss: 0.3813737558596062
+              precision    recall  f1-score   support
+
+           0     0.8346    0.8185    0.8265       259
+           1     0.8220    0.8378    0.8298       259
+
+    accuracy                         0.8282       518
+   macro avg     0.8283    0.8282    0.8282       518
+weighted avg     0.8283    0.8282    0.8282       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_47.csv
+Strategy 0 Direct accuracy: 90.7, 107 / 118
+Strategy 1 Metaphorical accuracy: 75.3, 70 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 73.3, 11 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 81.9, 212 / 259
+Epoch 3/10
+Train Loss: 0.3356349008282026
+              precision    recall  f1-score   support
+
+           0     0.8645    0.8515    0.8580      1199
+           1     0.8537    0.8666    0.8601      1199
+
+    accuracy                         0.8590      2398
+   macro avg     0.8591    0.8590    0.8590      2398
+weighted avg     0.8591    0.8590    0.8590      2398
+
+Strategy 0 Direct accuracy: 91.0, 508 / 558
+Strategy 1 Metaphorical accuracy: 80.7, 355 / 440
+Strategy 2 Semantic list accuracy: 93.4, 71 / 76
+Strategy 3 Reduplication accuracy: 78.0, 32 / 41
+Strategy 4 Single accuracy: 86.9, 73 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 85.2, 1021 / 1199
+Valid Loss: 0.6445754937827587
+              precision    recall  f1-score   support
+
+           0     0.7962    0.6345    0.7062       197
+           1     0.6962    0.8376    0.7604       197
+
+    accuracy                         0.7360       394
+   macro avg     0.7462    0.7360    0.7333       394
+weighted avg     0.7462    0.7360    0.7333       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_47.csv
+Strategy 0 Direct accuracy: 87.7, 64 / 73
+Strategy 1 Metaphorical accuracy: 82.5, 80 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 85.7, 6 / 7
+Strategy 4 Single accuracy: 70.0, 7 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 63.5, 125 / 197
+Test Loss: 0.4080260077660734
+              precision    recall  f1-score   support
+
+           0     0.8542    0.7915    0.8216       259
+           1     0.8058    0.8649    0.8343       259
+
+    accuracy                         0.8282       518
+   macro avg     0.8300    0.8282    0.8280       518
+weighted avg     0.8300    0.8282    0.8280       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_47.csv
+Strategy 0 Direct accuracy: 94.9, 112 / 118
+Strategy 1 Metaphorical accuracy: 80.6, 75 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 53.3, 8 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 79.2, 205 / 259
+Epoch 4/10
+Train Loss: 0.2660970980922381
+              precision    recall  f1-score   support
+
+           0     0.9037    0.8849    0.8942      1199
+           1     0.8873    0.9058    0.8964      1199
+
+    accuracy                         0.8953      2398
+   macro avg     0.8955    0.8953    0.8953      2398
+weighted avg     0.8955    0.8953    0.8953      2398
+
+Strategy 0 Direct accuracy: 92.5, 516 / 558
+Strategy 1 Metaphorical accuracy: 88.4, 389 / 440
+Strategy 2 Semantic list accuracy: 92.1, 70 / 76
+Strategy 3 Reduplication accuracy: 87.8, 36 / 41
+Strategy 4 Single accuracy: 89.3, 75 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 88.5, 1061 / 1199
+Valid Loss: 0.675116024017334
+              precision    recall  f1-score   support
+
+           0     0.7717    0.7208    0.7454       197
+           1     0.7381    0.7868    0.7617       197
+
+    accuracy                         0.7538       394
+   macro avg     0.7549    0.7538    0.7535       394
+weighted avg     0.7549    0.7538    0.7535       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_47.csv
+Strategy 0 Direct accuracy: 82.2, 60 / 73
+Strategy 1 Metaphorical accuracy: 80.4, 78 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 42.9, 3 / 7
+Strategy 4 Single accuracy: 60.0, 6 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 72.1, 142 / 197
+Test Loss: 0.47469093989242206
+              precision    recall  f1-score   support
+
+           0     0.8340    0.7954    0.8142       259
+           1     0.8044    0.8417    0.8226       259
+
+    accuracy                         0.8185       518
+   macro avg     0.8192    0.8185    0.8184       518
+weighted avg     0.8192    0.8185    0.8184       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_47.csv
+Strategy 0 Direct accuracy: 93.2, 110 / 118
+Strategy 1 Metaphorical accuracy: 74.2, 69 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 66.7, 10 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 79.5, 206 / 259
+Epoch 5/10
+Train Loss: 0.2171886885414521
+              precision    recall  f1-score   support
+
+           0     0.9245    0.8982    0.9112      1199
+           1     0.9011    0.9266    0.9137      1199
+
+    accuracy                         0.9124      2398
+   macro avg     0.9128    0.9124    0.9124      2398
+weighted avg     0.9128    0.9124    0.9124      2398
+
+Strategy 0 Direct accuracy: 94.6, 528 / 558
+Strategy 1 Metaphorical accuracy: 90.7, 399 / 440
+Strategy 2 Semantic list accuracy: 96.1, 73 / 76
+Strategy 3 Reduplication accuracy: 87.8, 36 / 41
+Strategy 4 Single accuracy: 89.3, 75 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 89.8, 1077 / 1199
+Valid Loss: 0.7787713406980038
+              precision    recall  f1-score   support
+
+           0     0.8333    0.6091    0.7038       197
+           1     0.6920    0.8782    0.7740       197
+
+    accuracy                         0.7437       394
+   macro avg     0.7627    0.7437    0.7389       394
+weighted avg     0.7627    0.7437    0.7389       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_47.csv
+Strategy 0 Direct accuracy: 93.2, 68 / 73
+Strategy 1 Metaphorical accuracy: 85.6, 83 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 71.4, 5 / 7
+Strategy 4 Single accuracy: 90.0, 9 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 60.9, 120 / 197
+Test Loss: 0.5044070791566011
+              precision    recall  f1-score   support
+
+           0     0.8547    0.7722    0.8114       259
+           1     0.7923    0.8687    0.8287       259
+
+    accuracy                         0.8205       518
+   macro avg     0.8235    0.8205    0.8200       518
+weighted avg     0.8235    0.8205    0.8200       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_47.csv
+Strategy 0 Direct accuracy: 94.1, 111 / 118
+Strategy 1 Metaphorical accuracy: 80.6, 75 / 93
+Strategy 2 Semantic list accuracy: 91.7, 11 / 12
+Strategy 3 Reduplication accuracy: 60.0, 9 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 77.2, 200 / 259
+Epoch 6/10
+Train Loss: 0.18727063947667677
+              precision    recall  f1-score   support
+
+           0     0.9418    0.9183    0.9299      1199
+           1     0.9203    0.9433    0.9316      1199
+
+    accuracy                         0.9308      2398
+   macro avg     0.9310    0.9308    0.9308      2398
+weighted avg     0.9310    0.9308    0.9308      2398
+
+Strategy 0 Direct accuracy: 96.4, 538 / 558
+Strategy 1 Metaphorical accuracy: 92.3, 406 / 440
+Strategy 2 Semantic list accuracy: 94.7, 72 / 76
+Strategy 3 Reduplication accuracy: 92.7, 38 / 41
+Strategy 4 Single accuracy: 91.7, 77 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 91.8, 1101 / 1199
+Valid Loss: 0.6125720393657684
+              precision    recall  f1-score   support
+
+           0     0.8193    0.6904    0.7493       197
+           1     0.7325    0.8477    0.7859       197
+
+    accuracy                         0.7690       394
+   macro avg     0.7759    0.7690    0.7676       394
+weighted avg     0.7759    0.7690    0.7676       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_47.csv
+Strategy 0 Direct accuracy: 91.8, 67 / 73
+Strategy 1 Metaphorical accuracy: 82.5, 80 / 97
+Strategy 2 Semantic list accuracy: 80.0, 8 / 10
+Strategy 3 Reduplication accuracy: 42.9, 3 / 7
+Strategy 4 Single accuracy: 90.0, 9 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 69.0, 136 / 197
+Test Loss: 0.45805580355226994
+              precision    recall  f1-score   support
+
+           0     0.8269    0.8301    0.8285       259
+           1     0.8295    0.8263    0.8279       259
+
+    accuracy                         0.8282       518
+   macro avg     0.8282    0.8282    0.8282       518
+weighted avg     0.8282    0.8282    0.8282       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_47.csv
+Strategy 0 Direct accuracy: 91.5, 108 / 118
+Strategy 1 Metaphorical accuracy: 73.1, 68 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 60.0, 9 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 83.0, 215 / 259
+Epoch 7/10
+Train Loss: 0.14182303635403515
+              precision    recall  f1-score   support
+
+           0     0.9465    0.9441    0.9453      1199
+           1     0.9443    0.9466    0.9454      1199
+
+    accuracy                         0.9454      2398
+   macro avg     0.9454    0.9454    0.9454      2398
+weighted avg     0.9454    0.9454    0.9454      2398
+
+Strategy 0 Direct accuracy: 96.6, 539 / 558
+Strategy 1 Metaphorical accuracy: 93.4, 411 / 440
+Strategy 2 Semantic list accuracy: 94.7, 72 / 76
+Strategy 3 Reduplication accuracy: 87.8, 36 / 41
+Strategy 4 Single accuracy: 91.7, 77 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 94.4, 1132 / 1199
+Valid Loss: 0.8466517120227217
+              precision    recall  f1-score   support
+
+           0     0.8881    0.6041    0.7190       197
+           1     0.7000    0.9239    0.7965       197
+
+    accuracy                         0.7640       394
+   macro avg     0.7940    0.7640    0.7578       394
+weighted avg     0.7940    0.7640    0.7578       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_47.csv
+Strategy 0 Direct accuracy: 94.5, 69 / 73
+Strategy 1 Metaphorical accuracy: 93.8, 91 / 97
+Strategy 2 Semantic list accuracy: 70.0, 7 / 10
+Strategy 3 Reduplication accuracy: 85.7, 6 / 7
+Strategy 4 Single accuracy: 90.0, 9 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 60.4, 119 / 197
+Test Loss: 0.5771718225582982
+              precision    recall  f1-score   support
+
+           0     0.8658    0.7722    0.8163       259
+           1     0.7944    0.8803    0.8352       259
+
+    accuracy                         0.8263       518
+   macro avg     0.8301    0.8263    0.8257       518
+weighted avg     0.8301    0.8263    0.8257       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_47.csv
+Strategy 0 Direct accuracy: 94.9, 112 / 118
+Strategy 1 Metaphorical accuracy: 80.6, 75 / 93
+Strategy 2 Semantic list accuracy: 91.7, 11 / 12
+Strategy 3 Reduplication accuracy: 73.3, 11 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 77.2, 200 / 259
+Epoch 8/10
+Train Loss: 0.1287211930875977
+              precision    recall  f1-score   support
+
+           0     0.9571    0.9500    0.9535      1199
+           1     0.9503    0.9575    0.9539      1199
+
+    accuracy                         0.9537      2398
+   macro avg     0.9537    0.9537    0.9537      2398
+weighted avg     0.9537    0.9537    0.9537      2398
+
+Strategy 0 Direct accuracy: 97.7, 545 / 558
+Strategy 1 Metaphorical accuracy: 94.5, 416 / 440
+Strategy 2 Semantic list accuracy: 96.1, 73 / 76
+Strategy 3 Reduplication accuracy: 92.7, 38 / 41
+Strategy 4 Single accuracy: 90.5, 76 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 95.0, 1139 / 1199
+Valid Loss: 0.9285228492692112
+              precision    recall  f1-score   support
+
+           0     0.7758    0.6497    0.7072       197
+           1     0.6987    0.8122    0.7512       197
+
+    accuracy                         0.7310       394
+   macro avg     0.7372    0.7310    0.7292       394
+weighted avg     0.7372    0.7310    0.7292       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_47.csv
+Strategy 0 Direct accuracy: 86.3, 63 / 73
+Strategy 1 Metaphorical accuracy: 79.4, 77 / 97
+Strategy 2 Semantic list accuracy: 70.0, 7 / 10
+Strategy 3 Reduplication accuracy: 85.7, 6 / 7
+Strategy 4 Single accuracy: 70.0, 7 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 65.0, 128 / 197
+Test Loss: 0.6361600142395631
+              precision    recall  f1-score   support
+
+           0     0.8589    0.8224    0.8402       259
+           1     0.8296    0.8649    0.8469       259
+
+    accuracy                         0.8436       518
+   macro avg     0.8443    0.8436    0.8436       518
+weighted avg     0.8443    0.8436    0.8436       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_47.csv
+Strategy 0 Direct accuracy: 94.1, 111 / 118
+Strategy 1 Metaphorical accuracy: 79.6, 74 / 93
+Strategy 2 Semantic list accuracy: 91.7, 11 / 12
+Strategy 3 Reduplication accuracy: 60.0, 9 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 82.2, 213 / 259
+Epoch 9/10
+Train Loss: 0.10159084216381113
+              precision    recall  f1-score   support
+
+           0     0.9663    0.9575    0.9619      1199
+           1     0.9579    0.9666    0.9622      1199
+
+    accuracy                         0.9621      2398
+   macro avg     0.9621    0.9621    0.9621      2398
+weighted avg     0.9621    0.9621    0.9621      2398
+
+Strategy 0 Direct accuracy: 98.0, 547 / 558
+Strategy 1 Metaphorical accuracy: 95.7, 421 / 440
+Strategy 2 Semantic list accuracy: 96.1, 73 / 76
+Strategy 3 Reduplication accuracy: 97.6, 40 / 41
+Strategy 4 Single accuracy: 92.9, 78 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 95.7, 1148 / 1199
+Valid Loss: 0.8822098254784941
+              precision    recall  f1-score   support
+
+           0     0.7841    0.7005    0.7399       197
+           1     0.7294    0.8071    0.7663       197
+
+    accuracy                         0.7538       394
+   macro avg     0.7567    0.7538    0.7531       394
+weighted avg     0.7567    0.7538    0.7531       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_47.csv
+Strategy 0 Direct accuracy: 89.0, 65 / 73
+Strategy 1 Metaphorical accuracy: 78.4, 76 / 97
+Strategy 2 Semantic list accuracy: 60.0, 6 / 10
+Strategy 3 Reduplication accuracy: 71.4, 5 / 7
+Strategy 4 Single accuracy: 70.0, 7 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 70.1, 138 / 197
+Test Loss: 0.6670788043517281
+              precision    recall  f1-score   support
+
+           0     0.8175    0.8301    0.8238       259
+           1     0.8275    0.8147    0.8210       259
+
+    accuracy                         0.8224       518
+   macro avg     0.8225    0.8224    0.8224       518
+weighted avg     0.8225    0.8224    0.8224       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_47.csv
+Strategy 0 Direct accuracy: 92.4, 109 / 118
+Strategy 1 Metaphorical accuracy: 72.0, 67 / 93
+Strategy 2 Semantic list accuracy: 66.7, 8 / 12
+Strategy 3 Reduplication accuracy: 53.3, 8 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 83.0, 215 / 259
+Epoch 10/10
+Train Loss: 0.10012319901337226
+              precision    recall  f1-score   support
+
+           0     0.9736    0.9550    0.9642      1199
+           1     0.9558    0.9741    0.9649      1199
+
+    accuracy                         0.9646      2398
+   macro avg     0.9647    0.9646    0.9646      2398
+weighted avg     0.9647    0.9646    0.9646      2398
+
+Strategy 0 Direct accuracy: 98.7, 551 / 558
+Strategy 1 Metaphorical accuracy: 95.9, 422 / 440
+Strategy 2 Semantic list accuracy: 100.0, 76 / 76
+Strategy 3 Reduplication accuracy: 95.1, 39 / 41
+Strategy 4 Single accuracy: 95.2, 80 / 84
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 95.5, 1145 / 1199
+Valid Loss: 0.7706977280974389
+              precision    recall  f1-score   support
+
+           0     0.8110    0.6751    0.7368       197
+           1     0.7217    0.8426    0.7775       197
+
+    accuracy                         0.7589       394
+   macro avg     0.7664    0.7589    0.7572       394
+weighted avg     0.7664    0.7589    0.7572       394
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_47.csv
+Strategy 0 Direct accuracy: 90.4, 66 / 73
+Strategy 1 Metaphorical accuracy: 82.5, 80 / 97
+Strategy 2 Semantic list accuracy: 70.0, 7 / 10
+Strategy 3 Reduplication accuracy: 57.1, 4 / 7
+Strategy 4 Single accuracy: 90.0, 9 / 10
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 67.5, 133 / 197
+Test Loss: 0.5619434035721828
+              precision    recall  f1-score   support
+
+           0     0.8444    0.8378    0.8411       259
+           1     0.8391    0.8456    0.8423       259
+
+    accuracy                         0.8417       518
+   macro avg     0.8417    0.8417    0.8417       518
+weighted avg     0.8417    0.8417    0.8417       518
+
+write predictions into benchmark_data/results/TE-finetune/roberta-base/portion_1.0_seed_47.csv
+Strategy 0 Direct accuracy: 93.2, 110 / 118
+Strategy 1 Metaphorical accuracy: 76.3, 71 / 93
+Strategy 2 Semantic list accuracy: 83.3, 10 / 12
+Strategy 3 Reduplication accuracy: 60.0, 9 / 15
+Strategy 4 Single accuracy: 90.5, 19 / 21
+No instances of strategy 5 Others found
+Strategy 6 Negatives accuracy: 83.8, 217 / 259
+Best Epoch: 6
+Best Val Accuracy: 76.9 at Epoch 6
