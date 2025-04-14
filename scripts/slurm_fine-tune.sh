@@ -7,9 +7,9 @@
 
 huggingface_path=/home/r/roald/hfcache
 # model_name=bert-base
-# model_name=bart-large
+model_name=bart-large
 # model_name=roberta-large
-model_name=roberta-base
+# model_name=roberta-base
 
 export CUDA_VISIBLE_DEVICES=1
 
