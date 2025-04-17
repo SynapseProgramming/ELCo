@@ -1,395 +1,541 @@
 sent1,sent2,label,strategy
-This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far journey.,1,0
-This is footprints [EM] motorway.,This is far journey.,1,1
-This is sleepy_face [EM] world_map.,This is far journey.,1,1
-This is hourglass_not_done [EM] automobile [EM] airplane [EM] railway_track.,This is far journey.,1,0
-This is railway_track [EM] ship [EM] world_map.,This is far journey.,1,1
-This is motorway [EM] bus.,This is far journey.,1,1
-This is world_map [EM] telescope.,This is far journey.,1,0
+This is dashing_away [EM] door.,This is effective entrance.,1,1
 This is person_standing [EM] globe_showing_Americas [EM] person_standing.,This is far side.,1,1
-This is down-left_arrow [EM] motorway.,This is far side.,1,1
-This is sleepy_face [EM] backhand_index_pointing_right.,This is far side.,1,1
-This is prohibited [EM] SOON_arrow [EM] straight_ruler.,This is far side.,1,1
-This is left-right_arrow.,This is far side.,1,4
-This is up_arrow.,This is far side.,1,4
-This is up-right_arrow [EM] up-right_arrow.,This is far side.,1,3
-This is person_walking [EM] sheaf_of_rice [EM] snow-capped_mountain [EM] compass.,This is far trek.,1,1
-This is woman_walking [EM] person_walking [EM] sweat_droplets.,This is far trek.,1,1
-This is face_with_spiral_eyes [EM] woman_walking.,This is far trek.,1,1
-This is prohibited [EM] SOON_arrow [EM] hiking_boot [EM] person_walking.,This is far trek.,1,0
+This is sparkles [EM] sparkles [EM] sparkles.,This is smooth skin.,1,3
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common brand.,0,6
+This is toilet [EM] construction_worker [EM] hammer_and_wrench.,This is dirty work.,1,1
+This is man [EM] man [EM] man [EM] man.,This is common procedure.,0,6
+This is memo [EM] slightly_smiling_face [EM] open_mailbox_with_raised_flag.,This is friendly reminder.,1,2
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty foot.,0,6
+This is thumbs_up [EM] face_with_symbols_on_mouth.,This is effective step.,0,6
+This is house [EM] fly.,This is common housefly.,1,0
+This is soap [EM] microbe [EM] derelict_house.,This is dirty slum.,1,1
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] busts_in_silhouette.,This is common interest.,1,3
+This is face_with_spiral_eyes [EM] confounded_face [EM] backhand_index_pointing_right [EM] bathtub.,This is dirty fighter.,0,6
+This is palms_up_together [EM] cityscape_at_dusk.,This is common land.,1,0
+This is palms_up_together [EM] writing_hand.,This is common problem.,0,6
+This is man [EM] man [EM] man [EM] man.,This is common land.,0,6
 This is man_climbing [EM] world_map.,This is far trek.,1,1
-This is man_walking [EM] hiking_boot.,This is far trek.,1,1
-This is person_walking [EM] backpack [EM] evergreen_tree [EM] evergreen_tree.,This is far trek.,1,1
-This is globe_showing_Americas [EM] left-right_arrow [EM] globe_showing_Asia-Australia.,This is far country.,1,1
-This is luggage [EM] airplane_departure [EM] twelve-thirty.,This is far country.,1,1
+This is clapping_hands [EM] ladder.,This is effective step.,1,1
+This is feather.,This is light touch.,0,4
+This is prohibited [EM] SOON_arrow [EM] straight_ruler.,This is far side.,1,1
 This is face_with_spiral_eyes [EM] Åland_Islands.,This is far country.,1,1
-This is prohibited [EM] SOON_arrow [EM] United_States [EM] Clipperton_Island [EM] Côte_d’Ivoire [EM] Ascension_Island [EM] Åland_Islands.,This is far country.,1,0
-This is world_map [EM] left-right_arrow.,This is far country.,1,0
-This is world_map [EM] passenger_ship [EM] airplane_departure.,This is far country.,1,1
-This is globe_showing_Americas [EM] right_arrow_curving_up [EM] up-right_arrow.,This is far country.,1,1
-This is girl [EM] child [EM] boy.,This is average people.,1,2
-This is people_holding_hands [EM] women_holding_hands [EM] men_holding_hands [EM] woman_gesturing_OK.,This is average people.,1,0
-This is confused_face [EM] man.,This is average people.,1,0
-This is man [EM] person [EM] woman [EM] girl.,This is average people.,1,2
-This is man_standing [EM] woman_standing [EM] person_standing.,This is average people.,1,2
-This is man_pouting [EM] woman_pouting.,This is average people.,1,2
-This is man [EM] person [EM] person_shrugging.,This is average people.,1,1
-This is memo [EM] OK_hand.,This is average merit.,1,1
-This is trophy [EM] trophy [EM] woman_gesturing_OK.,This is average merit.,1,1
-This is neutral_face [EM] hundred_points.,This is average merit.,1,0
-This is neutral_face [EM] briefcase [EM] 3rd_place_medal.,This is average merit.,1,0
-This is 2nd_place_medal.,This is average merit.,1,4
-This is man_gesturing_OK [EM] person_gesturing_OK.,This is average merit.,1,2
-This is sports_medal [EM] person_shrugging.,This is average merit.,1,0
-This is person_standing.,This is average size.,1,4
-This is t-shirt [EM] thumbs_up [EM] thumbs_down.,This is average size.,1,1
-This is face_with_raised_eyebrow [EM] palms_up_together.,This is average size.,1,1
-This is cross_mark [EM] black_large_square [EM] cross_mark [EM] black_small_square.,This is average size.,1,1
-This is wavy_dash [EM] balance_scale.,This is average size.,1,0
-This is man_standing [EM] person_standing.,This is average size.,1,2
-This is person_shrugging [EM] straight_ruler.,This is average size.,1,0
-This is face_with_spiral_eyes [EM] thinking_face.,This is puzzling statement.,1,2
-This is speech_balloon [EM] red_question_mark [EM] red_question_mark [EM] face_with_spiral_eyes.,This is puzzling statement.,1,0
-This is speaking_head [EM] red_question_mark [EM] exclamation_question_mark [EM] thinking_face [EM] person_shrugging.,This is puzzling statement.,1,1
-This is red_question_mark [EM] red_question_mark [EM] red_question_mark [EM] red_question_mark.,This is puzzling statement.,1,3
-This is face_with_monocle [EM] red_question_mark.,This is puzzling statement.,1,1
-This is exclamation_question_mark [EM] exclamation_question_mark [EM] red_question_mark [EM] white_question_mark [EM] woman_shrugging [EM] person_shrugging [EM] man_shrugging.,This is puzzling statement.,1,1
-This is face_with_spiral_eyes [EM] face_with_raised_eyebrow [EM] red_question_mark.,This is puzzling statement.,1,1
-This is woman_shrugging [EM] speaking_head.,This is puzzling statement.,1,0
-This is dashing_away [EM] dashing_away [EM] repeat_button [EM] speech_balloon.,This is immediate reply.,1,1
-This is red_exclamation_mark [EM] outbox_tray.,This is immediate reply.,1,0
-This is fast-forward_button [EM] telephone_receiver [EM] mobile_phone.,This is immediate reply.,1,1
-This is SOON_arrow [EM] incoming_envelope.,This is immediate reply.,1,0
-This is police_car_light [EM] mobile_phone_with_arrow.,This is immediate reply.,1,0
-This is man_running [EM] telephone_receiver [EM] thought_balloon.,This is immediate reply.,1,1
-This is fast-forward_button [EM] incoming_envelope.,This is immediate reply.,1,0
-This is stopwatch [EM] mobile_phone_with_arrow.,This is immediate reply.,1,0
-This is dashing_away [EM] dashing_away [EM] man_standing [EM] shuffle_tracks_button [EM] woman_standing.,This is immediate influence.,1,1
-This is woman_dancing [EM] man_dancing [EM] person_raising_hand [EM] woman_raising_hand [EM] man_raising_hand.,This is immediate influence.,1,1
-This is fast-forward_button [EM] woman_judge [EM] man_judge.,This is immediate influence.,1,1
-This is SOON_arrow [EM] family_man_woman_girl_boy.,This is immediate influence.,1,1
-This is woman_bowing_light_skin_tone [EM] woman_bowing_light_skin_tone.,This is immediate influence.,1,3
-This is man_police_officer [EM] backhand_index_pointing_down [EM] folded_hands [EM] handshake.,This is immediate influence.,1,1
-This is TOP_arrow [EM] TOP_arrow.,This is immediate influence.,1,3
-This is people_holding_hands [EM] left-right_arrow [EM] red_exclamation_mark.,This is immediate influence.,1,1
-This is heavy_dollar_sign [EM] heavy_dollar_sign [EM] heavy_dollar_sign [EM] heavy_dollar_sign.,This is high price.,1,3
-This is TOP_arrow [EM] money_with_wings.,This is high price.,1,1
-This is up_arrow [EM] heavy_dollar_sign.,This is high price.,1,0
-This is TOP_arrow [EM] dollar_banknote [EM] money_with_wings.,This is high price.,1,0
-This is money_with_wings [EM] money-mouth_face [EM] bank.,This is high price.,1,1
-This is label [EM] money_bag.,This is high price.,1,1
-This is ladder [EM] heavy_dollar_sign.,This is high price.,1,0
-This is heavy_dollar_sign [EM] exploding_head [EM] backhand_index_pointing_up.,This is high price.,1,1
-This is man_bald [EM] pinching_hand.,This is high forehead.,1,1
-This is TOP_arrow [EM] woman_bald.,This is high forehead.,1,0
-This is up_arrow [EM] old_man.,This is high forehead.,1,0
-This is man_bald [EM] cross_mark [EM] boy [EM] man.,This is high forehead.,1,1
-This is up_arrow [EM] woman_bald.,This is high forehead.,1,0
-This is index_pointing_up [EM] man_bald.,This is high forehead.,1,0
-This is ladder [EM] woman_facepalming_light_skin_tone.,This is high forehead.,1,1
-This is man_bald [EM] backhand_index_pointing_up.,This is high forehead.,1,0
-This is smiling_face_with_halo [EM] folded_hands.,This is high hope.,1,1
-This is TOP_arrow [EM] star_of_David.,This is high hope.,1,0
-This is up_arrow [EM] smiling_face.,This is high hope.,1,0
-This is TOP_arrow [EM] crossed_fingers [EM] folded_hands [EM] shooting_star [EM] dizzy [EM] four_leaf_clover [EM] smiling_face_with_open_hands.,This is high hope.,1,1
-This is up_arrow [EM] smiling_face_with_halo [EM] crossed_fingers.,This is high hope.,1,1
-This is up_arrow [EM] folded_hands.,This is high hope.,1,0
-This is ladder [EM] folded_hands_medium-light_skin_tone.,This is high hope.,1,1
-This is folded_hands [EM] relieved_face [EM] backhand_index_pointing_up.,This is high hope.,1,1
-This is TOP_arrow [EM] office_building.,This is high building.,1,0
-This is TOP_arrow [EM] Tokyo_tower.,This is high building.,1,0
-This is up_arrow [EM] Tokyo_tower.,This is high building.,1,0
-This is TOP_arrow [EM] office_building [EM] cityscape_at_dusk.,This is high building.,1,0
-This is Tokyo_tower [EM] castle [EM] Japanese_castle.,This is high building.,1,0
-This is up_arrow [EM] cityscape.,This is high building.,1,0
-This is ladder [EM] office_building.,This is high building.,1,1
-This is office_building [EM] backhand_index_pointing_up.,This is high building.,1,0
-This is snow-capped_mountain [EM] astonished_face.,This is high mountain.,1,1
-This is TOP_arrow [EM] mount_fuji.,This is high mountain.,1,0
-This is up_arrow [EM] snow-capped_mountain.,This is high mountain.,1,0
-This is TOP_arrow [EM] mountain.,This is high mountain.,1,0
-This is mountain [EM] snow-capped_mountain [EM] mount_fuji.,This is high mountain.,1,2
-This is up_arrow [EM] mountain.,This is high mountain.,1,0
-This is ladder [EM] snow-capped_mountain.,This is high mountain.,1,1
-This is snow-capped_mountain [EM] backhand_index_pointing_up.,This is high mountain.,1,0
-This is sun [EM] hot_springs [EM] hot_face [EM] thermometer.,This is high temperature.,1,1
-This is TOP_arrow [EM] hot_face.,This is high temperature.,1,1
-This is thermometer [EM] face_with_thermometer.,This is high temperature.,1,1
-This is face_with_thermometer [EM] woozy_face [EM] hot_face.,This is high temperature.,1,1
-This is hot_face [EM] hot_springs [EM] sun [EM] bed.,This is high temperature.,1,1
-This is thermometer [EM] sun.,This is high temperature.,1,1
-This is face_with_thermometer.,This is high temperature.,1,1
-This is thermometer [EM] face_with_thermometer [EM] backhand_index_pointing_up.,This is high temperature.,1,1
-This is face_with_medical_mask [EM] warning [EM] skull_and_crossbones.,This is high risk.,1,1
-This is TOP_arrow [EM] skull_and_crossbones.,This is high risk.,1,0
-This is radioactive [EM] biohazard [EM] warning.,This is high risk.,1,1
-This is TOP_arrow [EM] SOS_button.,This is high risk.,1,0
-This is mount_fuji [EM] skull_and_crossbones [EM] biohazard.,This is high risk.,1,1
-This is skull [EM] red_exclamation_mark.,This is high risk.,1,1
-This is warning [EM] warning [EM] warning.,This is high risk.,1,3
-This is radioactive [EM] biohazard [EM] person_gesturing_NO [EM] backhand_index_pointing_up.,This is high risk.,1,0
-This is speaking_head [EM] hundred_points.,This is high opinion.,1,0
-This is TOP_arrow [EM] speaking_head.,This is high opinion.,1,0
-This is woman_health_worker [EM] man_student [EM] thumbs_up.,This is high opinion.,1,1
-This is TOP_arrow [EM] man_health_worker [EM] woman_health_worker.,This is high opinion.,1,1
-This is red_exclamation_mark [EM] double_exclamation_mark.,This is high opinion.,1,1
-This is up_arrow [EM] speaking_head.,This is high opinion.,1,0
-This is thumbs_up_medium-light_skin_tone [EM] thumbs_up_medium-light_skin_tone [EM] thumbs_up_medium-light_skin_tone.,This is high opinion.,1,3
-This is speaking_head [EM] backhand_index_pointing_up.,This is high opinion.,1,0
-This is national_park.,This is high river.,1,4
-This is TOP_arrow [EM] national_park.,This is high river.,1,0
-This is up_arrow [EM] national_park.,This is high river.,1,0
-This is TOP_arrow [EM] water_wave [EM] national_park.,This is high river.,1,0
-This is national_park.,This is high river.,1,4
-This is up_arrow [EM] national_park.,This is high river.,1,0
-This is ladder [EM] national_park.,This is high river.,1,0
-This is water_wave [EM] backhand_index_pointing_up.,This is high river.,1,0
-This is TOP_arrow [EM] index_pointing_up.,This is high point.,1,0
-This is TOP_arrow [EM] backhand_index_pointing_up.,This is high point.,1,0
-This is up_arrow [EM] backhand_index_pointing_right.,This is high point.,1,0
-This is TOP_arrow [EM] backhand_index_pointing_right [EM] Tokyo_tower.,This is high point.,1,0
-This is snow-capped_mountain.,This is high point.,1,4
-This is up_arrow [EM] index_pointing_up.,This is high point.,1,0
-This is ladder [EM] backhand_index_pointing_up.,This is high point.,1,1
-This is red_triangle_pointed_up [EM] backhand_index_pointing_up.,This is high point.,1,0
-This is OK_hand [EM] fork_and_knife_with_plate.,This is exotic cuisine.,1,1
-This is alien [EM] shallow_pan_of_food.,This is exotic cuisine.,1,0
-This is Venezuela [EM] Montenegro [EM] Myanmar_(Burma) [EM] taco [EM] bento_box [EM] sushi.,This is exotic cuisine.,1,1
-This is smiling_face_with_horns [EM] stuffed_flatbread.,This is exotic cuisine.,1,1
-This is bento_box [EM] croissant [EM] pizza.,This is exotic cuisine.,1,2
-This is exploding_head [EM] mouth [EM] cup_with_straw [EM] bread.,This is exotic cuisine.,1,1
-This is thinking_face [EM] cook [EM] taco.,This is exotic cuisine.,1,1
-This is globe_showing_Asia-Australia [EM] clinking_glasses.,This is exotic cuisine.,1,0
-This is grinning_face [EM] bread.,This is fresh bread.,1,1
-This is control_knobs [EM] alarm_clock [EM] bread [EM] hot_springs.,This is fresh bread.,1,1
-This is NEW_button [EM] bread.,This is fresh bread.,1,0
-This is sparkles [EM] bread.,This is fresh bread.,1,1
-This is bread [EM] timer_clock [EM] hot_springs.,This is fresh bread.,1,1
-This is soap [EM] bread.,This is fresh bread.,1,0
-This is man_cook [EM] hourglass_done [EM] bread.,This is fresh bread.,1,1
-This is cook [EM] bread.,This is fresh bread.,1,1
-This is face_savoring_food [EM] bread.,This is fresh bread.,1,1
-This is wind_face [EM] nose [EM] OK_hand [EM] relieved_face.,This is fresh scent.,1,1
-This is dashing_away [EM] nose [EM] grinning_face_with_big_eyes.,This is fresh scent.,1,1
-This is NEW_button [EM] nose.,This is fresh scent.,1,0
-This is sparkles [EM] dashing_away [EM] smiling_face_with_heart-eyes.,This is fresh scent.,1,1
-This is tangerine [EM] lemon [EM] nose.,This is fresh scent.,1,1
-This is soap [EM] nose [EM] dashing_away.,This is fresh scent.,1,0
-This is boy [EM] shower [EM] soap [EM] hibiscus.,This is fresh scent.,1,2
-This is wind_face.,This is fresh scent.,1,4
-This is face_savoring_food [EM] nose.,This is fresh scent.,1,1
-This is leafy_green.,This is fresh lettuce.,1,4
-This is woman_farmer [EM] leafy_green.,This is fresh lettuce.,1,1
-This is NEW_button [EM] leafy_green.,This is fresh lettuce.,1,0
-This is sparkles [EM] leafy_green.,This is fresh lettuce.,1,1
-This is man_farmer [EM] leafy_green.,This is fresh lettuce.,1,1
-This is soap [EM] leafy_green.,This is fresh lettuce.,1,0
-This is leaf_fluttering_in_wind [EM] leafy_green [EM] leaf_fluttering_in_wind.,This is fresh lettuce.,1,1
-This is farmer [EM] leafy_green [EM] leafy_green.,This is fresh lettuce.,1,1
-This is face_savoring_food [EM] leafy_green.,This is fresh lettuce.,1,1
-This is wind_face [EM] face_exhaling.,This is fresh air.,1,1
-This is globe_showing_Europe-Africa [EM] thumbs_up [EM] dashing_away [EM] multiply [EM] cigarette.,This is fresh air.,1,1
-This is NEW_button [EM] airplane.,This is fresh air.,1,0
-This is wind_face [EM] sparkles.,This is fresh air.,1,1
-This is dashing_away [EM] nose [EM] no_smoking.,This is fresh air.,1,1
-This is soap [EM] dashing_away.,This is fresh air.,1,0
-This is sun [EM] mountain [EM] dashing_away [EM] leaf_fluttering_in_wind [EM] leaf_fluttering_in_wind.,This is fresh air.,1,1
-This is wind_face.,This is fresh air.,1,4
-This is face_savoring_food [EM] tornado.,This is fresh air.,1,0
-This is man_climbing [EM] world_map.,This is far journey.,0,6
-This is globe_showing_Americas [EM] left-right_arrow [EM] globe_showing_Asia-Australia.,This is far journey.,0,6
-This is person_standing [EM] globe_showing_Americas [EM] person_standing.,This is far journey.,0,6
-This is face_with_spiral_eyes [EM] Åland_Islands.,This is far journey.,0,6
-This is luggage [EM] airplane_departure [EM] twelve-thirty.,This is far journey.,0,6
-This is globe_showing_Americas [EM] left-right_arrow [EM] globe_showing_Asia-Australia.,This is far journey.,0,6
-This is prohibited [EM] SOON_arrow [EM] United_States [EM] Clipperton_Island [EM] Côte_d’Ivoire [EM] Ascension_Island [EM] Åland_Islands.,This is far journey.,0,6
-This is luggage [EM] airplane_departure [EM] twelve-thirty.,This is far side.,0,6
-This is person_walking [EM] sheaf_of_rice [EM] snow-capped_mountain [EM] compass.,This is far side.,0,6
-This is man_walking [EM] hiking_boot.,This is far side.,0,6
-This is globe_showing_Americas [EM] left-right_arrow [EM] globe_showing_Asia-Australia.,This is far side.,0,6
-This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far side.,0,6
-This is face_with_spiral_eyes [EM] woman_walking.,This is far side.,0,6
-This is person_walking [EM] sheaf_of_rice [EM] snow-capped_mountain [EM] compass.,This is far side.,0,6
-This is prohibited [EM] SOON_arrow [EM] straight_ruler.,This is far trek.,0,6
-This is sleepy_face [EM] backhand_index_pointing_right.,This is far trek.,0,6
-This is world_map [EM] passenger_ship [EM] airplane_departure.,This is far trek.,0,6
-This is hourglass_not_done [EM] automobile [EM] airplane [EM] railway_track.,This is far trek.,0,6
-This is prohibited [EM] SOON_arrow [EM] straight_ruler.,This is far trek.,0,6
-This is up-right_arrow [EM] up-right_arrow.,This is far trek.,0,6
-This is footprints [EM] motorway.,This is far trek.,0,6
-This is person_walking [EM] backpack [EM] evergreen_tree [EM] evergreen_tree.,This is far country.,0,6
-This is prohibited [EM] SOON_arrow [EM] straight_ruler.,This is far country.,0,6
-This is up_arrow.,This is far country.,0,6
-This is hourglass_not_done [EM] automobile [EM] airplane [EM] railway_track.,This is far country.,0,6
+This is thumbs_down [EM] boxing_glove.,This is dirty fighter.,1,0
 This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far country.,0,6
-This is up_arrow.,This is far country.,0,6
-This is person_walking [EM] backpack [EM] evergreen_tree [EM] evergreen_tree.,This is far country.,0,6
-This is person_shrugging [EM] straight_ruler.,This is average people.,0,6
-This is person_standing.,This is average people.,0,6
-This is wavy_dash [EM] balance_scale.,This is average people.,0,6
-This is wavy_dash [EM] balance_scale.,This is average people.,0,6
-This is man_gesturing_OK [EM] person_gesturing_OK.,This is average people.,0,6
-This is neutral_face [EM] hundred_points.,This is average people.,0,6
-This is t-shirt [EM] thumbs_up [EM] thumbs_down.,This is average people.,0,6
+This is busts_in_silhouette [EM] speaking_head.,This is common parlance.,1,0
 This is face_with_raised_eyebrow [EM] palms_up_together.,This is average merit.,0,6
-This is man [EM] person [EM] person_shrugging.,This is average merit.,0,6
-This is confused_face [EM] man.,This is average merit.,0,6
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common man.,0,6
+This is sailboat [EM]  [EM] man_light_skin_tone [EM] anchor [EM] .,This is common sailor.,1,1
+This is sleepy_face [EM] backhand_index_pointing_right.,This is far side.,1,1
+This is face_with_symbols_on_mouth [EM] men_wrestling.,This is dirty fighter.,1,0
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty work.,0,6
+This is angry_face_with_horns [EM] oncoming_fist [EM] boxing_glove [EM] people_wrestling.,This is dirty fighter.,1,1
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty work.,0,6
+This is thumbs_up [EM] ladder.,This is effective reprimand.,0,6
+This is disguised_face [EM] woman_and_man_holding_hands [EM] palms_up_together.,This is common knowledge.,1,1
+This is bird [EM] bird [EM] bird.,This is early morning.,0,6
+This is man_gesturing_OK [EM] person_gesturing_OK.,This is average merit.,1,2
+This is pile_of_poo [EM] money_with_wings [EM] house.,This is dirty slum.,1,0
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common brand.,0,6
+This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far journey.,1,0
+This is thumbs_up [EM] ladder.,This is effective entrance.,0,6
+This is thumbs_up [EM] door [EM] unlocked.,This is effective entrance.,1,0
+This is gem_stone [EM] magnifying_glass_tilted_right [EM] direct_hit.,This is rare find.,1,2
+This is nauseated_face [EM] foot.,This is dirty foot.,1,0
+This is palms_up_together [EM] writing_hand.,This is common mistake.,0,6
+This is hospital [EM] hospital [EM] hospital.,This is rare disease.,1,3
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common brand.,0,6
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common parlance.,0,6
+This is face_with_spiral_eyes [EM] confounded_face [EM] backhand_index_pointing_right [EM] bathtub.,This is dirty fighter.,0,6
+This is up_arrow.,This is far side.,1,4
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty overall.,0,6
+This is soap [EM] fork_and_knife_with_plate [EM] petri_dish.,This is dirty dish.,1,1
+This is man [EM] man [EM] man [EM] man.,This is common procedure.,0,6
+This is speedboat [EM] boy.,This is common sailor.,1,1
+This is alarm_clock [EM] sunrise [EM] hot_beverage.,This is early start.,1,2
+This is man [EM] person [EM] woman [EM] girl.,This is average people.,1,2
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty work.,0,6
+This is mobile_phone [EM] pouting_face [EM] anger_symbol.,This is angry customer.,0,6
+This is man [EM] man [EM] man [EM] man.,This is common sailor.,0,6
+This is counterclockwise_arrows_button [EM] health_worker [EM] syringe.,This is common procedure.,1,1
+This is man [EM] man [EM] man [EM] man.,This is common knowledge.,0,6
+This is man [EM] man [EM] man [EM] man.,This is common knowledge.,0,6
+This is glowing_star [EM] glowing_star [EM] glowing_star.,This is rare talent.,1,3
+This is face_with_symbols_on_mouth [EM] pouting_face.,This is dirty fighter.,1,1
+This is pile_of_poo [EM] briefcase.,This is dirty job.,1,0
+This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far side.,0,6
+This is face_with_raised_eyebrow [EM] palms_up_together.,This is average people.,0,6
+This is smiling_face_with_horns [EM] dollar_banknote [EM] dollar_banknote [EM] prohibited [EM] backhand_index_pointing_right [EM] police_officer.,This is dirty money.,1,1
+This is face_vomiting [EM] fork_and_knife_with_plate.,This is dirty clothes.,0,6
+This is money_bag [EM] balance_scale [EM] thumbs_up.,This is fair price.,1,2
+This is police_car [EM] stop_sign [EM] dollar_banknote [EM] dollar_banknote [EM] dollar_banknote.,This is dirty money.,1,1
+This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far side.,0,6
+This is man_pouting [EM] woman_pouting.,This is average people.,1,2
+This is thumbs_up [EM] ladder.,This is effective entrance.,0,6
+This is face_vomiting [EM] fork_and_knife_with_plate.,This is dirty trick.,0,6
+This is thumbs_up [EM] ladder.,This is effective reprimand.,0,6
+This is national_park.,This is common land.,1,4
+This is face_with_monocle [EM] brain.,This is common knowledge.,1,1
+This is face_vomiting [EM] foot.,This is dirty foot.,1,0
+This is chequered_flag [EM] chequered_flag [EM] chequered_flag.,This is fair competition.,1,3
+This is chart_increasing [EM] busts_in_silhouette [EM] arrows_counterclockwise.,This is popular trend.,1,2
+This is thumbs_up [EM] ladder.,This is effective entrance.,0,6
+This is speaking_head [EM] deaf_woman [EM] thumbs_up.,This is effective reprimand.,1,0
+This is thumbs_up [EM] person_walking.,This is effective step.,1,0
+This is gem_stone [EM] gem_stone [EM] gem_stone.,This is rare opportunity.,1,3
+This is balance_scale [EM] cross_mark [EM] angry_face.,This is unfair treatment.,0,6
+This is person_lifting_weights [EM] person_lifting_weights [EM] person_lifting_weights.,This is light workout.,1,3
+This is woman_office_worker [EM] speaking_head [EM] briefcase.,This is common parlance.,1,1
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty slum.,0,6
+This is person_standing [EM] globe_showing_Americas [EM] person_standing.,This is far journey.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty overall.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty money.,0,6
+This is busts_in_silhouette [EM] speech_balloon [EM] thumbs_up.,This is popular opinion.,1,2
+This is pile_of_poo [EM] jeans.,This is dirty overall.,1,0
+This is man [EM] man [EM] man [EM] man.,This is common sailor.,0,6
+This is right_arrow [EM] right_arrow [EM] right_arrow.,This is smooth transition.,1,3
+This is microbe [EM] briefcase.,This is dirty work.,1,1
+This is handshake [EM] busts_in_silhouette [EM] globe_showing_Americas.,This is common ground.,1,2
+This is fly [EM] house.,This is dirty slum.,1,1
+This is fly [EM] neutral_face.,This is common housefly.,1,0
+This is globe_showing_Americas [EM] left-right_arrow [EM] globe_showing_Asia-Australia.,This is far country.,1,1
+This is face_with_raised_eyebrow [EM] palms_up_together.,This is average people.,0,6
+This is man [EM] man [EM] man [EM] man.,This is common procedure.,0,6
+This is thumbs_up [EM] ladder.,This is effective reprimand.,0,6
+This is man [EM] man [EM] man [EM] man.,This is common housefly.,0,6
+This is neutral_face [EM] hundred_points.,This is average size.,0,6
+This is hospital [EM] microscope [EM] warning.,This is rare disease.,1,2
+This is busts_in_silhouette [EM] fly.,This is common housefly.,1,0
+This is man [EM] man [EM] man [EM] man.,This is common nuisance.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty work.,0,6
+This is neutral_face [EM] hundred_points.,This is average merit.,1,0
+This is right_arrow [EM] sparkles [EM] arrows_counterclockwise.,This is smooth skin.,0,6
+This is balance_scale [EM] balance_scale [EM] balance_scale.,This is unfair advantage.,1,3
+This is thumbs_down [EM] derelict_house.,This is dirty slum.,1,0
+This is person_walking [EM] sheaf_of_rice [EM] snow-capped_mountain [EM] compass.,This is far trek.,1,1
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty dish.,0,6
+This is face_with_thermometer [EM] face_with_head-bandage.,This is common nuisance.,1,2
+This is sunrise [EM] sunrise [EM] sunrise.,This is early adopter.,0,6
+This is brain [EM] brain [EM] globe_showing_Americas.,This is common knowledge.,1,0
+This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far trek.,0,6
+This is face_vomiting [EM] fork_and_knife_with_plate.,This is dirty floor.,0,6
+This is feather.,This is light reading.,0,6
+This is memo [EM] slightly_smiling_face [EM] open_mailbox_with_raised_flag.,This is friendly neighbor.,0,6
+This is thumbs_up [EM] ladder.,This is effective entrance.,0,6
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common parlance.,0,6
+This is trophy [EM] trophy [EM] woman_gesturing_OK.,This is average merit.,1,1
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common brand.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty foot.,0,6
+This is grimacing_face [EM] clipboard [EM] keycap_1 [EM] keycap_2 [EM] keycap_3.,This is common procedure.,1,1
+This is t-shirt.,This is dirty clothes.,0,4
+This is neutral_face [EM] hundred_points.,This is average size.,0,6
+This is cityscape_at_dusk [EM] cityscape [EM] bridge_at_night [EM] desert_island.,This is common land.,1,2
+This is sunrise [EM] sunrise [EM] sunrise.,This is early bird.,0,6
+This is sparkles [EM] lotion_bottle [EM] OK_hand.,This is smooth skin.,1,2
+This is face_with_symbols_on_mouth [EM] face_with_symbols_on_mouth [EM] face_with_symbols_on_mouth.,This is angry customer.,1,3
+This is prohibited [EM] SOON_arrow [EM] United_States [EM] Clipperton_Island [EM] Côte_d’Ivoire [EM] Ascension_Island [EM] Åland_Islands.,This is far country.,1,0
+This is cooking [EM] croissant [EM] hot_beverage.,This is light breakfast.,1,2
+This is glasses [EM] clutch_bag [EM] dress [EM] necktie [EM] copyright.,This is common brand.,1,0
+This is face_with_spiral_eyes [EM] confounded_face [EM] backhand_index_pointing_right [EM] bathtub.,This is dirty overall.,1,1
+This is feather.,This is light workout.,0,6
+This is pile_of_poo [EM] oncoming_fist [EM] boxing_glove.,This is dirty fighter.,1,0
+This is clapping_hands [EM] boy [EM] person_curly_hair.,This is common parlance.,1,1
+This is man [EM] person_curly_hair [EM] man_curly_hair.,This is common man.,1,2
+This is person_standing [EM] globe_showing_Americas [EM] person_standing.,This is far journey.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty job.,0,6
+This is play_button [EM] ladder.,This is common procedure.,1,1
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty money.,0,6
+This is face_vomiting [EM] dress [EM] woman’s_clothes.,This is dirty overall.,1,0
+This is screwdriver [EM] wrench [EM] handshake.,This is common procedure.,1,1
+This is thumbs_up [EM] face_with_symbols_on_mouth.,This is effective step.,0,6
+This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far trek.,0,6
+This is thumbs_down [EM] money_bag.,This is dirty money.,1,0
+This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far country.,0,6
+This is busts_in_silhouette [EM] books [EM] open_book [EM] busts_in_silhouette.,This is common knowledge.,1,1
+This is hot_face [EM] foot [EM] pile_of_poo.,This is dirty foot.,1,0
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty dish.,0,6
+This is man [EM] man [EM] man [EM] man.,This is common procedure.,0,6
+This is man [EM] person [EM] person_shrugging.,This is average people.,1,1
+This is musical_note [EM] speaker_high_volume [EM] headphone.,This is loud music.,1,2
+This is paintbrush [EM] laptop [EM] arrows_counterclockwise.,This is modern technology.,0,6
+This is thumbs_up [EM] ladder.,This is effective entrance.,0,6
+This is man [EM] man [EM] man [EM] man.,This is common land.,0,6
+This is microbe [EM] bomb [EM] man_supervillain [EM] microbe [EM] supervillain [EM] bomb [EM] microbe.,This is dirty job.,1,1
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common brand.,0,6
+This is neutral_face [EM] hundred_points.,This is average size.,0,6
+This is man [EM] man [EM] man [EM] man.,This is common knowledge.,0,6
+This is hundred_points [EM] hundred_points [EM] hundred_points [EM] sparkles.,This is effective step.,1,1
+This is balance_scale [EM] cross_mark [EM] angry_face.,This is unfair advantage.,1,2
+This is man [EM] man [EM] man [EM] man.,This is common procedure.,0,6
+This is down-right_arrow [EM] down-left_arrow.,This is common brand.,1,1
+This is man_teacher [EM] speaking_head [EM] memo [EM] red_question_mark [EM] red_question_mark [EM] red_question_mark.,This is unclear action.,1,1
+This is man [EM] man [EM] man [EM] man.,This is common nuisance.,0,6
+This is face_with_steam_from_nose [EM] face_with_steam_from_nose [EM] pensive_face [EM] pensive_face [EM] pensive_face [EM] sad_but_relieved_face.,This is effective reprimand.,1,1
+This is snake [EM] scorpion [EM] crocodile.,This is dangerous animal.,1,2
+This is handbag.,This is common brand.,1,4
+This is notebook [EM] notebook_with_decorative_cover [EM] speech_balloon [EM] thought_balloon.,This is common parlance.,1,1
+This is face_vomiting [EM] fork_and_knife_with_plate.,This is dirty dishes.,0,6
+This is sunrise [EM] sunrise [EM] sunrise.,This is early start.,0,6
+This is mobile_phone [EM] pouting_face [EM] anger_symbol.,This is angry customer.,0,6
+This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far trek.,0,6
+This is face_with_raised_eyebrow [EM] palms_up_together.,This is average people.,0,6
+This is girl [EM] child [EM] boy.,This is average people.,1,2
+This is angry_face [EM] angry_face [EM] angry_face.,This is unfair treatment.,1,3
+This is unamused_face [EM] unamused_face.,This is common nuisance.,1,3
+This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far country.,0,6
+This is man [EM] man [EM] man [EM] man.,This is common nuisance.,0,6
+This is sparkles [EM] lotion_bottle [EM] OK_hand.,This is smooth transition.,0,6
+This is man_standing [EM] woman_standing [EM] person_standing.,This is average people.,1,2
+This is balance_scale [EM] cross_mark [EM] angry_face.,This is unfair treatment.,0,6
+This is bird [EM] bird [EM] bird.,This is early bird.,1,3
+This is thumbs_up [EM] ladder.,This is effective reprimand.,0,6
+This is globe_showing_Americas [EM] Åland_Islands [EM] British_Indian_Ocean_Territory [EM] British_Virgin_Islands [EM] Caribbean_Netherlands [EM] Caribbean_Netherlands [EM] Cayman_Islands.,This is common land.,1,2
+This is trophy [EM] direct_hit [EM] 1st_place_medal.,This is major achievement.,1,2
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty money.,0,6
+This is thumbs_up [EM] ladder.,This is effective entrance.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty foot.,0,6
 This is face_with_raised_eyebrow [EM] palms_up_together.,This is average merit.,0,6
-This is person_standing.,This is average merit.,0,6
-This is people_holding_hands [EM] women_holding_hands [EM] men_holding_hands [EM] woman_gesturing_OK.,This is average merit.,0,6
-This is wavy_dash [EM] balance_scale.,This is average merit.,0,6
-This is 2nd_place_medal.,This is average size.,0,6
-This is trophy [EM] trophy [EM] woman_gesturing_OK.,This is average size.,0,6
-This is memo [EM] OK_hand.,This is average size.,0,6
-This is 2nd_place_medal.,This is average size.,0,6
-This is people_holding_hands [EM] women_holding_hands [EM] men_holding_hands [EM] woman_gesturing_OK.,This is average size.,0,6
-This is man [EM] person [EM] woman [EM] girl.,This is average size.,0,6
-This is confused_face [EM] man.,This is average size.,0,6
-This is face_with_raised_eyebrow [EM] face_with_monocle [EM] woman_shrugging [EM] man_shrugging.,This is puzzling statement.,0,6
-This is red_question_mark [EM] face_with_raised_eyebrow.,This is puzzling statement.,0,6
-This is red_question_mark [EM] red_question_mark [EM] red_question_mark.,This is puzzling statement.,0,6
-This is red_question_mark [EM] face_with_raised_eyebrow.,This is puzzling statement.,0,6
-This is red_question_mark [EM] face_with_raised_eyebrow.,This is puzzling statement.,0,6
-This is face_with_raised_eyebrow [EM] face_with_monocle [EM] woman_shrugging [EM] man_shrugging.,This is puzzling statement.,0,6
-This is red_question_mark [EM] face_with_raised_eyebrow.,This is puzzling statement.,0,6
-This is thinking_face [EM] woman_running.,This is puzzling statement.,0,6
-This is man_police_officer [EM] backhand_index_pointing_down [EM] folded_hands [EM] handshake.,This is immediate reply.,0,6
-This is dashing_away [EM] dashing_away [EM] man_standing [EM] shuffle_tracks_button [EM] woman_standing.,This is immediate reply.,0,6
-This is fast-forward_button [EM] woman_judge [EM] man_judge.,This is immediate reply.,0,6
-This is man_police_officer [EM] backhand_index_pointing_down [EM] folded_hands [EM] handshake.,This is immediate reply.,0,6
-This is dashing_away [EM] dashing_away [EM] man_standing [EM] shuffle_tracks_button [EM] woman_standing.,This is immediate reply.,0,6
-This is woman_dancing [EM] man_dancing [EM] person_raising_hand [EM] woman_raising_hand [EM] man_raising_hand.,This is immediate reply.,0,6
-This is dashing_away [EM] dashing_away [EM] man_standing [EM] shuffle_tracks_button [EM] woman_standing.,This is immediate reply.,0,6
-This is people_holding_hands [EM] left-right_arrow [EM] red_exclamation_mark.,This is immediate reply.,0,6
-This is red_exclamation_mark [EM] outbox_tray.,This is immediate influence.,0,6
-This is red_exclamation_mark [EM] outbox_tray.,This is immediate influence.,0,6
-This is SOON_arrow [EM] incoming_envelope.,This is immediate influence.,0,6
-This is red_exclamation_mark [EM] outbox_tray.,This is immediate influence.,0,6
-This is dashing_away [EM] dashing_away [EM] repeat_button [EM] speech_balloon.,This is immediate influence.,0,6
-This is police_car_light [EM] mobile_phone_with_arrow.,This is immediate influence.,0,6
-This is man_running [EM] telephone_receiver [EM] thought_balloon.,This is immediate influence.,0,6
-This is police_car_light [EM] mobile_phone_with_arrow.,This is immediate influence.,0,6
-This is national_park.,This is high price.,0,6
-This is red_exclamation_mark [EM] double_exclamation_mark.,This is high price.,0,6
-This is TOP_arrow [EM] water_wave [EM] national_park.,This is high price.,0,6
-This is TOP_arrow [EM] office_building [EM] cityscape_at_dusk.,This is high price.,0,6
-This is skull [EM] red_exclamation_mark.,This is high price.,0,6
-This is smiling_face_with_halo [EM] folded_hands.,This is high price.,0,6
-This is up_arrow [EM] backhand_index_pointing_right.,This is high price.,0,6
-This is TOP_arrow [EM] man_health_worker [EM] woman_health_worker.,This is high price.,0,6
-This is hot_face [EM] hot_springs [EM] sun [EM] bed.,This is high forehead.,0,6
-This is radioactive [EM] biohazard [EM] person_gesturing_NO [EM] backhand_index_pointing_up.,This is high forehead.,0,6
-This is TOP_arrow [EM] backhand_index_pointing_right [EM] Tokyo_tower.,This is high forehead.,0,6
-This is up_arrow [EM] cityscape.,This is high forehead.,0,6
-This is heavy_dollar_sign [EM] exploding_head [EM] backhand_index_pointing_up.,This is high forehead.,0,6
-This is radioactive [EM] biohazard [EM] person_gesturing_NO [EM] backhand_index_pointing_up.,This is high forehead.,0,6
-This is up_arrow [EM] mountain.,This is high forehead.,0,6
-This is radioactive [EM] biohazard [EM] person_gesturing_NO [EM] backhand_index_pointing_up.,This is high forehead.,0,6
-This is ladder [EM] office_building.,This is high hope.,0,6
-This is Tokyo_tower [EM] castle [EM] Japanese_castle.,This is high hope.,0,6
-This is radioactive [EM] biohazard [EM] person_gesturing_NO [EM] backhand_index_pointing_up.,This is high hope.,0,6
-This is TOP_arrow [EM] office_building [EM] cityscape_at_dusk.,This is high hope.,0,6
-This is sun [EM] hot_springs [EM] hot_face [EM] thermometer.,This is high hope.,0,6
-This is TOP_arrow [EM] dollar_banknote [EM] money_with_wings.,This is high hope.,0,6
-This is radioactive [EM] biohazard [EM] warning.,This is high hope.,0,6
-This is radioactive [EM] biohazard [EM] warning.,This is high hope.,0,6
-This is TOP_arrow [EM] skull_and_crossbones.,This is high building.,0,6
-This is TOP_arrow [EM] SOS_button.,This is high building.,0,6
-This is TOP_arrow [EM] dollar_banknote [EM] money_with_wings.,This is high building.,0,6
-This is TOP_arrow [EM] backhand_index_pointing_right [EM] Tokyo_tower.,This is high building.,0,6
-This is TOP_arrow [EM] water_wave [EM] national_park.,This is high building.,0,6
-This is TOP_arrow [EM] backhand_index_pointing_right [EM] Tokyo_tower.,This is high building.,0,6
-This is red_exclamation_mark [EM] double_exclamation_mark.,This is high building.,0,6
-This is TOP_arrow [EM] backhand_index_pointing_up.,This is high building.,0,6
-This is woman_health_worker [EM] man_student [EM] thumbs_up.,This is high mountain.,0,6
-This is TOP_arrow [EM] SOS_button.,This is high mountain.,0,6
-This is radioactive [EM] biohazard [EM] person_gesturing_NO [EM] backhand_index_pointing_up.,This is high mountain.,0,6
-This is TOP_arrow [EM] dollar_banknote [EM] money_with_wings.,This is high mountain.,0,6
-This is ladder [EM] national_park.,This is high mountain.,0,6
-This is radioactive [EM] biohazard [EM] person_gesturing_NO [EM] backhand_index_pointing_up.,This is high mountain.,0,6
-This is TOP_arrow [EM] hot_face.,This is high mountain.,0,6
-This is TOP_arrow [EM] dollar_banknote [EM] money_with_wings.,This is high mountain.,0,6
-This is TOP_arrow [EM] crossed_fingers [EM] folded_hands [EM] shooting_star [EM] dizzy [EM] four_leaf_clover [EM] smiling_face_with_open_hands.,This is high temperature.,0,6
-This is TOP_arrow [EM] money_with_wings.,This is high temperature.,0,6
-This is mount_fuji [EM] skull_and_crossbones [EM] biohazard.,This is high temperature.,0,6
-This is heavy_dollar_sign [EM] exploding_head [EM] backhand_index_pointing_up.,This is high temperature.,0,6
-This is TOP_arrow [EM] crossed_fingers [EM] folded_hands [EM] shooting_star [EM] dizzy [EM] four_leaf_clover [EM] smiling_face_with_open_hands.,This is high temperature.,0,6
-This is radioactive [EM] biohazard [EM] warning.,This is high temperature.,0,6
-This is TOP_arrow [EM] office_building [EM] cityscape_at_dusk.,This is high temperature.,0,6
-This is man_bald [EM] cross_mark [EM] boy [EM] man.,This is high temperature.,0,6
-This is thumbs_up_medium-light_skin_tone [EM] thumbs_up_medium-light_skin_tone [EM] thumbs_up_medium-light_skin_tone.,This is high risk.,0,6
-This is TOP_arrow [EM] water_wave [EM] national_park.,This is high risk.,0,6
-This is thermometer [EM] sun.,This is high risk.,0,6
-This is man_bald [EM] backhand_index_pointing_up.,This is high risk.,0,6
-This is up_arrow [EM] smiling_face_with_halo [EM] crossed_fingers.,This is high risk.,0,6
-This is face_with_thermometer [EM] woozy_face [EM] hot_face.,This is high risk.,0,6
-This is TOP_arrow [EM] mountain.,This is high risk.,0,6
-This is ladder [EM] office_building.,This is high risk.,0,6
-This is Tokyo_tower [EM] castle [EM] Japanese_castle.,This is high opinion.,0,6
-This is TOP_arrow [EM] water_wave [EM] national_park.,This is high opinion.,0,6
-This is radioactive [EM] biohazard [EM] warning.,This is high opinion.,0,6
-This is TOP_arrow [EM] woman_bald.,This is high opinion.,0,6
-This is face_with_thermometer [EM] woozy_face [EM] hot_face.,This is high opinion.,0,6
-This is TOP_arrow [EM] dollar_banknote [EM] money_with_wings.,This is high opinion.,0,6
-This is office_building [EM] backhand_index_pointing_up.,This is high opinion.,0,6
-This is TOP_arrow [EM] backhand_index_pointing_right [EM] Tokyo_tower.,This is high opinion.,0,6
-This is TOP_arrow [EM] dollar_banknote [EM] money_with_wings.,This is high river.,0,6
-This is TOP_arrow [EM] office_building [EM] cityscape_at_dusk.,This is high river.,0,6
-This is radioactive [EM] biohazard [EM] person_gesturing_NO [EM] backhand_index_pointing_up.,This is high river.,0,6
-This is radioactive [EM] biohazard [EM] person_gesturing_NO [EM] backhand_index_pointing_up.,This is high river.,0,6
-This is ladder [EM] backhand_index_pointing_up.,This is high river.,0,6
-This is TOP_arrow [EM] office_building [EM] cityscape_at_dusk.,This is high river.,0,6
-This is up_arrow [EM] woman_bald.,This is high river.,0,6
-This is speaking_head [EM] backhand_index_pointing_up.,This is high river.,0,6
-This is TOP_arrow [EM] dollar_banknote [EM] money_with_wings.,This is high point.,0,6
-This is TOP_arrow [EM] mount_fuji.,This is high point.,0,6
-This is Tokyo_tower [EM] castle [EM] Japanese_castle.,This is high point.,0,6
-This is TOP_arrow [EM] office_building [EM] cityscape_at_dusk.,This is high point.,0,6
-This is man_bald [EM] cross_mark [EM] boy [EM] man.,This is high point.,0,6
-This is radioactive [EM] biohazard [EM] person_gesturing_NO [EM] backhand_index_pointing_up.,This is high point.,0,6
-This is ladder [EM] folded_hands_medium-light_skin_tone.,This is high point.,0,6
-This is up_arrow [EM] snow-capped_mountain.,This is high point.,0,6
-This is France [EM] Japan [EM] woman_curly_hair.,This is exotic cuisine.,0,6
-This is alien [EM] United_Nations.,This is exotic cuisine.,0,6
-This is Venezuela [EM] Montenegro [EM] Myanmar_(Burma) [EM] studio_microphone [EM] speaking_head.,This is exotic cuisine.,0,6
-This is airplane [EM] cityscape.,This is exotic cuisine.,0,6
-This is Afghanistan [EM] Åland_Islands [EM] Albania.,This is exotic cuisine.,0,6
-This is speaker_high_volume [EM] thinking_face [EM] red_question_mark [EM] red_question_mark.,This is exotic cuisine.,0,6
-This is Venezuela [EM] Montenegro [EM] Myanmar_(Burma) [EM] studio_microphone [EM] speaking_head.,This is exotic cuisine.,0,6
-This is alien [EM] cityscape.,This is exotic cuisine.,0,6
-This is face_savoring_food [EM] nose.,This is fresh bread.,0,6
-This is dashing_away [EM] nose [EM] grinning_face_with_big_eyes.,This is fresh bread.,0,6
-This is NEW_button [EM] airplane.,This is fresh bread.,0,6
-This is face_savoring_food [EM] nose.,This is fresh bread.,0,6
-This is sun [EM] mountain [EM] dashing_away [EM] leaf_fluttering_in_wind [EM] leaf_fluttering_in_wind.,This is fresh bread.,0,6
-This is face_savoring_food [EM] tornado.,This is fresh bread.,0,6
-This is globe_showing_Europe-Africa [EM] thumbs_up [EM] dashing_away [EM] multiply [EM] cigarette.,This is fresh bread.,0,6
-This is wind_face [EM] nose [EM] OK_hand [EM] relieved_face.,This is fresh bread.,0,6
-This is face_savoring_food [EM] nose.,This is fresh bread.,0,6
-This is control_knobs [EM] alarm_clock [EM] bread [EM] hot_springs.,This is fresh scent.,0,6
-This is bread [EM] timer_clock [EM] hot_springs.,This is fresh scent.,0,6
-This is soap [EM] leafy_green.,This is fresh scent.,0,6
-This is farmer [EM] leafy_green [EM] leafy_green.,This is fresh scent.,0,6
-This is man_cook [EM] hourglass_done [EM] bread.,This is fresh scent.,0,6
-This is soap [EM] bread.,This is fresh scent.,0,6
-This is dashing_away [EM] nose [EM] no_smoking.,This is fresh scent.,0,6
-This is control_knobs [EM] alarm_clock [EM] bread [EM] hot_springs.,This is fresh scent.,0,6
-This is wind_face [EM] sparkles.,This is fresh scent.,0,6
-This is wind_face.,This is fresh lettuce.,0,6
-This is wind_face [EM] nose [EM] OK_hand [EM] relieved_face.,This is fresh lettuce.,0,6
-This is soap [EM] bread.,This is fresh lettuce.,0,6
-This is grinning_face [EM] bread.,This is fresh lettuce.,0,6
-This is wind_face [EM] nose [EM] OK_hand [EM] relieved_face.,This is fresh lettuce.,0,6
-This is NEW_button [EM] nose.,This is fresh lettuce.,0,6
-This is tangerine [EM] lemon [EM] nose.,This is fresh lettuce.,0,6
-This is wind_face.,This is fresh lettuce.,0,6
-This is face_savoring_food [EM] bread.,This is fresh lettuce.,0,6
-This is control_knobs [EM] alarm_clock [EM] bread [EM] hot_springs.,This is fresh air.,0,6
-This is dashing_away [EM] nose [EM] grinning_face_with_big_eyes.,This is fresh air.,0,6
-This is soap [EM] nose [EM] dashing_away.,This is fresh air.,0,6
-This is tangerine [EM] lemon [EM] nose.,This is fresh air.,0,6
-This is leaf_fluttering_in_wind [EM] leafy_green [EM] leaf_fluttering_in_wind.,This is fresh air.,0,6
-This is NEW_button [EM] nose.,This is fresh air.,0,6
-This is wind_face [EM] nose [EM] OK_hand [EM] relieved_face.,This is fresh air.,0,6
-This is face_savoring_food [EM] leafy_green.,This is fresh air.,0,6
-This is soap [EM] nose [EM] dashing_away.,This is fresh air.,0,6
+This is money_bag [EM] balance_scale [EM] thumbs_up.,This is fair competition.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty money.,0,6
+This is hourglass_not_done [EM] automobile [EM] airplane [EM] railway_track.,This is far journey.,1,0
+This is man_standing [EM] nauseated_face.,This is dirty overall.,1,0
+This is face_with_raised_eyebrow [EM] palms_up_together.,This is average merit.,0,6
+This is thumbs_up [EM] ladder.,This is effective entrance.,0,6
+This is shopping_bags [EM] shopping_bags [EM] counterclockwise_arrows_button.,This is common brand.,1,1
+This is thumbs_up [EM] face_with_symbols_on_mouth.,This is effective step.,0,6
+This is face_with_symbols_on_mouth [EM] face_with_symbols_on_mouth [EM] face_with_symbols_on_mouth.,This is angry mob.,0,6
+This is busts_in_silhouette [EM] loudspeaker [EM] speaker_high_volume.,This is loud music.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty overall.,0,6
+This is chequered_flag [EM] balance_scale [EM] handshake.,This is fair price.,0,6
+This is thumbs_up [EM] footprints [EM] light_bulb [EM] speech_balloon.,This is effective step.,1,1
+This is red_apple [EM] banana [EM] peach.,This is ripe opportunity.,0,6
+This is face_with_raised_eyebrow [EM] palms_up_together.,This is average people.,0,6
+This is warning [EM] police_car_light [EM] collision.,This is dangerous situation.,1,2
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common man.,0,6
+This is person_standing [EM] globe_showing_Americas [EM] person_standing.,This is far journey.,0,6
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common brand.,0,6
+This is closed_book [EM] closed_book [EM] closed_book.,This is rare disease.,0,6
+This is toilet [EM] construction_worker [EM] hammer_and_wrench.,This is dirty job.,1,1
+This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far trek.,0,6
+This is thumbs_down [EM] fish.,This is dirty dish.,1,0
+This is oncoming_police_car [EM] page_with_curl.,This is dirty work.,1,1
+This is neutral_face [EM] hundred_points.,This is average size.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty foot.,0,6
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common man.,0,6
+This is man [EM] man [EM] man [EM] man.,This is common knowledge.,0,6
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common brand.,0,6
+This is money-mouth_face [EM] money_with_wings [EM] supervillain.,This is dirty money.,1,1
+This is face_with_raised_eyebrow [EM] palms_up_together.,This is average people.,0,6
+This is man [EM] man [EM] man [EM] man.,This is common nuisance.,0,6
+This is broom [EM] broom [EM] broom.,This is dirty floor.,1,3
+This is green_salad.,This is light meal.,1,4
+This is face_with_raised_eyebrow [EM] palms_up_together.,This is average merit.,0,6
+This is warning [EM] bar_chart [EM] police_car_light.,This is major achievement.,0,6
+This is thumbs_up [EM] door.,This is effective entrance.,1,0
+This is man [EM] man [EM] man [EM] man.,This is common land.,0,6
+This is man [EM] man [EM] man [EM] man.,This is common procedure.,0,6
+This is neutral_face [EM] hundred_points.,This is average size.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty dish.,0,6
+This is face_vomiting [EM] fork_and_knife_with_plate.,This is dirty dish.,1,0
+This is 2nd_place_medal.,This is average merit.,1,4
+This is t-shirt [EM] thumbs_up [EM] thumbs_down.,This is average size.,1,1
+This is thumbs_up [EM] ladder.,This is effective entrance.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty money.,0,6
+This is paintbrush [EM] laptop [EM] arrows_counterclockwise.,This is modern design.,1,2
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty overall.,0,6
+This is thumbs_up [EM] face_with_steam_from_nose.,This is effective reprimand.,1,0
+This is plunger [EM] toilet [EM] broom [EM] money_bag [EM] old_woman [EM] old_man.,This is dirty work.,1,1
+This is brain [EM] thinking_face [EM] unamused_face.,This is common knowledge.,1,1
+This is busts_in_silhouette [EM] desert_island [EM] raising_hands [EM] busts_in_silhouette.,This is common land.,1,0
+This is man_light_skin_tone.,This is common man.,1,4
+This is leaf_fluttering_in_wind [EM] leaf_fluttering_in_wind [EM] leaf_fluttering_in_wind.,This is light meal.,0,6
+This is books [EM] magnifying_glass_tilted_right [EM] hot_beverage.,This is light reading.,1,2
+This is man [EM] man [EM] man [EM] man.,This is common procedure.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty foot.,0,6
+This is prohibited [EM] SOON_arrow [EM] hiking_boot [EM] person_walking.,This is far trek.,1,0
+This is play_button [EM] brain.,This is common knowledge.,1,0
+This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far trek.,0,6
+This is person_standing.,This is average size.,1,4
+This is microbe [EM] zipper-mouth_face [EM] money-mouth_face [EM] money_with_wings [EM] microbe.,This is dirty money.,1,1
+This is face_vomiting [EM] hammer_and_wrench.,This is dirty work.,1,0
+This is warning [EM] bar_chart [EM] police_car_light.,This is major problem.,1,2
+This is world_map [EM] telescope.,This is far journey.,1,0
+This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far trek.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty dish.,0,6
+This is pilot [EM] speedboat.,This is common sailor.,1,1
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty slum.,0,6
+This is leaf_fluttering_in_wind [EM] leaf_fluttering_in_wind [EM] leaf_fluttering_in_wind.,This is light breeze.,1,3
+This is busts_in_silhouette [EM] clockwise_vertical_arrows.,This is common procedure.,1,0
+This is palms_up_together [EM] mobile_phone.,This is common brand.,1,1
+This is thumbs_up [EM] face_with_symbols_on_mouth.,This is effective step.,0,6
+This is person_standing [EM] person_standing [EM] person_shrugging.,This is common man.,1,1
+This is pile_of_poo [EM] broom.,This is dirty job.,1,0
+This is man [EM] man [EM] man [EM] man.,This is common sailor.,0,6
+This is busts_in_silhouette [EM] mountain.,This is common land.,1,0
+This is face_with_spiral_eyes [EM] confounded_face [EM] backhand_index_pointing_right [EM] bathtub.,This is dirty fighter.,0,6
+This is sparkles [EM] lotion_bottle [EM] OK_hand.,This is smooth transition.,0,6
+This is chequered_flag [EM] balance_scale [EM] handshake.,This is fair competition.,1,2
+This is thumbs_down [EM] foot.,This is dirty foot.,1,0
+This is down-left_arrow [EM] motorway.,This is far side.,1,1
+This is microbe [EM] hut [EM] microbe.,This is dirty slum.,1,0
+This is face_with_raised_eyebrow [EM] palms_up_together.,This is average merit.,0,6
+This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far side.,0,6
+This is ballot_box.,This is dirty politics.,0,4
+This is fork_and_knife_with_plate [EM] anxious_face_with_sweat [EM] thumbs_down.,This is dirty dish.,1,1
+This is desktop_computer.,This is common procedure.,1,4
+This is speaking_head [EM] check_mark_button [EM] OK_button.,This is common parlance.,1,1
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty dish.,0,6
+This is leaf_fluttering_in_wind [EM] leaf_fluttering_in_wind [EM] leaf_fluttering_in_wind.,This is light touch.,0,6
+This is man [EM] man [EM] man [EM] man.,This is common knowledge.,0,6
+This is man_standing [EM] person_standing.,This is average size.,1,2
+This is unamused_face [EM] luggage.,This is dirty work.,1,0
+This is man_walking [EM] hiking_boot.,This is far trek.,1,1
+This is man [EM] man [EM] man [EM] man.,This is common housefly.,0,6
+This is man.,This is common man.,1,4
+This is closed_book [EM] closed_book [EM] closed_book.,This is rare disease.,0,6
+This is thumbs_up [EM] ladder.,This is effective reprimand.,0,6
+This is man [EM] man [EM] man [EM] man.,This is common knowledge.,0,6
+This is man [EM] man [EM] man [EM] man.,This is common knowledge.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty money.,0,6
+This is warning [EM] police_car_light [EM] collision.,This is dangerous animal.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty dish.,0,6
+This is person_standing [EM] globe_showing_Americas [EM] person_standing.,This is far journey.,0,6
+This is pile_of_poo [EM] kimono.,This is dirty overall.,1,0
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty dish.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty foot.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty overall.,0,6
+This is dashing_away [EM] ladder.,This is effective step.,1,1
+This is thumbs_up [EM] footprints.,This is effective step.,1,0
+This is busts_in_silhouette [EM] woman_tipping_hand_light_skin_tone [EM] handbag.,This is common brand.,1,1
+This is thumbs_up [EM] ladder.,This is effective reprimand.,0,6
+This is palms_up_together [EM] man.,This is common man.,1,0
+This is man [EM] man [EM] man [EM] man.,This is common sailor.,0,6
+This is palms_up_together [EM] handshake.,This is common parlance.,1,1
+This is expressionless_face [EM] unamused_face [EM] boxing_glove.,This is dirty fighter.,1,1
+This is busts_in_silhouette [EM] man_standing.,This is common man.,1,1
+This is nauseated_face [EM] face_vomiting [EM] unamused_face.,This is dirty overall.,1,2
+This is hospital [EM] hospital [EM] hospital.,This is rare book.,0,6
+This is railway_track [EM] ship [EM] world_map.,This is far journey.,1,1
+This is unamused_face [EM] money_bag.,This is dirty money.,1,1
+This is wavy_dash [EM] balance_scale.,This is average size.,1,0
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common parlance.,0,6
+This is up-right_arrow [EM] up-right_arrow.,This is far side.,1,3
+This is pile_of_poo [EM] rescue_worker’s_helmet [EM] briefcase.,This is dirty work.,1,0
+This is person_shrugging [EM] straight_ruler.,This is average size.,1,0
+This is handshake [EM] desert_island.,This is common land.,1,0
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty slum.,0,6
+This is palms_up_together [EM] man_gesturing_NO.,This is common nuisance.,1,0
+This is red_apple [EM] banana [EM] peach.,This is ripe fruit.,1,2
+This is chequered_flag [EM] balance_scale [EM] handshake.,This is fair price.,0,6
+This is man [EM] man [EM] man [EM] man.,This is common land.,0,6
+This is pouting_face [EM] pouting_face [EM] pouting_face.,This is angry mob.,1,3
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty job.,0,6
+This is face_vomiting [EM] dollar_banknote.,This is dirty money.,1,0
+This is left-right_arrow.,This is far side.,1,4
+This is world_map [EM] passenger_ship [EM] airplane_departure.,This is far country.,1,1
+This is face_with_raised_eyebrow [EM] face_with_monocle [EM] woman_shrugging [EM] man_shrugging.,This is unclear action.,1,2
+This is face_with_spiral_eyes [EM] confounded_face [EM] backhand_index_pointing_right [EM] bathtub.,This is dirty fighter.,0,6
+This is woozy_face [EM] man_zombie.,This is dirty slum.,1,1
+This is man [EM] man [EM] man [EM] man.,This is common land.,0,6
+This is face_vomiting [EM] nauseated_face [EM] man_construction_worker.,This is dirty job.,1,0
+This is magnifying_glass_tilted_right [EM] pencil [EM] OK_hand.,This is fine wine.,0,6
+This is neutral_face [EM] briefcase [EM] 3rd_place_medal.,This is average merit.,1,0
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common brand.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty job.,0,6
+This is play_button [EM] shopping_cart [EM] purse.,This is common brand.,1,1
+This is confounded_face [EM] foot.,This is dirty foot.,1,0
+This is plunger [EM] toilet [EM] broom.,This is dirty job.,1,1
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty job.,0,6
+This is globe_showing_Americas [EM] right_arrow_curving_up [EM] up-right_arrow.,This is far country.,1,1
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty dish.,0,6
+This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far trek.,0,6
+This is face_vomiting [EM] hut.,This is dirty slum.,1,0
+This is man [EM] man [EM] man [EM] man.,This is common housefly.,0,6
+This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far country.,0,6
+This is thumbs_up [EM] ladder.,This is effective reprimand.,0,6
+This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far country.,0,6
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common man.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty overall.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty work.,0,6
+This is man [EM] man [EM] man [EM] man.,This is common housefly.,0,6
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common man.,0,6
+This is snake [EM] scorpion [EM] crocodile.,This is dangerous situation.,0,6
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common man.,0,6
+This is face_with_spiral_eyes [EM] confounded_face [EM] backhand_index_pointing_right [EM] bathtub.,This is dirty fighter.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty job.,0,6
+This is man [EM] man [EM] man [EM] man.,This is common nuisance.,0,6
+This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far side.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty slum.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty slum.,0,6
+This is palms_up_together [EM] fly.,This is common housefly.,1,0
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty foot.,0,6
+This is palms_up_together [EM] writing_hand.,This is common interest.,0,6
+This is luggage [EM] airplane_departure [EM] twelve-thirty.,This is far country.,1,1
+This is fork_and_knife_with_plate [EM] fly.,This is dirty dish.,1,1
+This is waving_hand [EM] house [EM] hugging_face.,This is friendly neighbor.,1,2
+This is man [EM] man [EM] man [EM] man.,This is common sailor.,0,6
+This is houses [EM] houses [EM] houses [EM] fly [EM] fly [EM] fly [EM] fly [EM] fly.,This is common housefly.,1,3
+This is pile_of_poo [EM] footprints.,This is dirty foot.,1,0
+This is thumbs_down [EM] coat.,This is dirty overall.,1,1
+This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far country.,0,6
+This is thumbs_up [EM] door [EM] person.,This is effective entrance.,1,0
+This is confused_face [EM] man.,This is average people.,1,0
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common parlance.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty overall.,0,6
+This is face_with_spiral_eyes [EM] woman_walking.,This is far trek.,1,1
+This is angry_face [EM] balance_scale [EM] busts_in_silhouette.,This is unfair advantage.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty slum.,0,6
+This is play_button [EM] boy [EM] boy [EM] boy.,This is common man.,1,1
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty overall.,0,6
+This is thumbs_down [EM] memo.,This is dirty job.,1,0
+This is man [EM] man [EM] man [EM] man.,This is common nuisance.,0,6
+This is thumbs_down [EM] memo.,This is dirty work.,1,0
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty slum.,0,6
+This is man [EM] man [EM] man [EM] man.,This is common land.,0,6
+This is right_arrow [EM] sparkles [EM] arrows_counterclockwise.,This is smooth skin.,0,6
+This is pouting_face [EM] thumbs_up.,This is effective reprimand.,1,0
+This is waving_hand [EM] house [EM] hugging_face.,This is friendly reminder.,0,6
+This is mobile_phone [EM] laptop [EM] arrows_counterclockwise.,This is modern design.,0,6
+This is motorway [EM] bus.,This is far journey.,1,1
+This is thumbs_up [EM] face_with_symbols_on_mouth.,This is effective step.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty foot.,0,6
+This is man [EM] man [EM] man [EM] man.,This is common nuisance.,0,6
+This is busts_in_silhouette [EM] weary_face.,This is common nuisance.,1,0
+This is busts_in_silhouette [EM] speech_balloon [EM] thumbs_up.,This is popular trend.,0,6
+This is man [EM] man [EM] man [EM] man.,This is common housefly.,0,6
+This is red_question_mark [EM] face_with_raised_eyebrow.,This is unclear action.,1,1
+This is man [EM] man [EM] man [EM] man.,This is common land.,0,6
+This is person_standing [EM] globe_showing_Americas [EM] person_standing.,This is far journey.,0,6
+This is thumbs_up [EM] right_arrow.,This is effective entrance.,1,1
+This is sports_medal [EM] person_shrugging.,This is average merit.,1,0
+This is footprints [EM] motorway.,This is far journey.,1,1
+This is man_pilot [EM] anchor.,This is common sailor.,1,1
+This is soap [EM] fork_and_knife_with_plate.,This is dirty dish.,1,1
+This is neutral_face [EM] hundred_points.,This is average size.,0,6
+This is hospital [EM] hospital [EM] hospital.,This is rare opportunity.,0,6
+This is angry_face [EM] balance_scale [EM] busts_in_silhouette.,This is unfair advantage.,0,6
+This is direct_hit [EM] sparkles [EM] alarm_clock.,This is ripe opportunity.,1,2
+This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far side.,0,6
+This is busts_in_silhouette [EM] books.,This is common knowledge.,1,0
+This is man [EM] man [EM] man [EM] man.,This is common sailor.,0,6
+This is plate_with_cutlery.,This is dirty dishes.,0,4
+This is face_with_spiral_eyes [EM] confounded_face [EM] backhand_index_pointing_right [EM] bathtub.,This is dirty fighter.,0,6
+This is face_with_spiral_eyes [EM] confounded_face [EM] backhand_index_pointing_right [EM] bathtub.,This is dirty fighter.,0,6
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common parlance.,0,6
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common housefly.,1,0
+This is soap [EM] foot.,This is dirty foot.,1,1
+This is nauseated_face [EM] luggage.,This is dirty job.,1,0
+This is thumbs_up [EM] ladder.,This is effective reprimand.,0,6
+This is thumbs_up [EM] footprints [EM] right_arrow.,This is effective step.,1,0
+This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far side.,0,6
+This is face_with_raised_eyebrow [EM] palms_up_together.,This is average people.,0,6
+This is pouting_face [EM] pouting_face [EM] pouting_face.,This is angry message.,0,6
+This is pile_of_poo [EM] fork_and_knife_with_plate.,This is dirty dish.,1,0
+This is sunrise [EM] sunrise [EM] sunrise.,This is early morning.,1,3
+This is angry_face [EM] balance_scale [EM] busts_in_silhouette.,This is unfair treatment.,1,2
+This is person_standing [EM] globe_showing_Americas [EM] person_standing.,This is far journey.,0,6
+This is dashing_away [EM] face_with_symbols_on_mouth.,This is effective reprimand.,1,1
+This is man [EM] man [EM] man [EM] man.,This is common procedure.,0,6
+This is face_with_raised_eyebrow [EM] palms_up_together.,This is average size.,1,1
+This is face_with_symbols_on_mouth.,This is common nuisance.,1,4
+This is busts_in_silhouette [EM] luggage [EM] purse [EM] briefcase [EM] backpack [EM] handbag [EM] busts_in_silhouette.,This is common brand.,1,1
+This is face_vomiting [EM] martial_arts_uniform.,This is dirty fighter.,1,0
+This is man_dancing [EM] thinking_face.,This is unclear action.,1,0
+This is mobile_phone [EM] pouting_face [EM] anger_symbol.,This is angry message.,1,2
+This is thumbs_up [EM] angry_face [EM] pouting_face [EM] face_with_steam_from_nose.,This is effective reprimand.,1,0
+This is busts_in_silhouette [EM] syringe [EM] stethoscope [EM] adhesive_bandage [EM] drop_of_blood [EM] health_worker [EM] busts_in_silhouette.,This is common procedure.,1,1
+This is nose [EM] foot [EM] nauseated_face.,This is dirty foot.,1,1
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty work.,0,6
+This is thumbs_up [EM] face_with_symbols_on_mouth.,This is effective step.,0,6
+This is closed_book [EM] closed_book [EM] closed_book.,This is rare find.,0,6
+This is play_button [EM] speaking_head.,This is common parlance.,1,1
+This is face_with_raised_eyebrow [EM] palms_up_together.,This is average merit.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty money.,0,6
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common parlance.,0,6
+This is face_vomiting [EM] fork_and_knife_with_plate.,This is dirty politics.,0,6
+This is speaking_head [EM] left-right_arrow [EM] speaking_head.,This is common parlance.,1,1
+This is wine_glass [EM] grapes [EM] sparkles.,This is fine detail.,0,6
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common parlance.,0,6
+This is fly.,This is common housefly.,1,4
+This is man [EM] man [EM] man [EM] man.,This is common man.,1,3
+This is performing_arts.,This is dirty trick.,0,4
+This is red_question_mark [EM] red_question_mark [EM] red_question_mark.,This is unclear action.,1,3
+This is persevering_face [EM] no_one_under_eighteen [EM] money_with_wings.,This is dirty slum.,1,1
+This is mobile_phone [EM] laptop [EM] arrows_counterclockwise.,This is modern technology.,1,2
+This is direct_hit [EM] sparkles [EM] alarm_clock.,This is ripe fruit.,0,6
+This is thinking_face [EM] woman_running.,This is unclear action.,1,0
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty job.,0,6
+This is thumbs_up [EM] face_with_symbols_on_mouth.,This is effective reprimand.,1,0
+This is feather.,This is light breakfast.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty slum.,0,6
+This is cross_mark [EM] busts_in_silhouette [EM] person_facepalming.,This is common mistake.,1,2
+This is play_button [EM] brick.,This is common land.,1,1
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common parlance.,0,6
+This is right_arrow [EM] sparkles [EM] arrows_counterclockwise.,This is smooth transition.,1,2
+This is face_with_raised_eyebrow [EM] palms_up_together.,This is average people.,0,6
+This is cross_mark [EM] chess_pawn.,This is unclear action.,1,0
+This is palms_up_together [EM] writing_hand.,This is common procedure.,1,1
+This is world_map [EM] left-right_arrow.,This is far country.,1,0
+This is man [EM] man [EM] man [EM] man.,This is common sailor.,0,6
+This is cross_mark [EM] black_large_square [EM] cross_mark [EM] black_small_square.,This is average size.,1,1
+This is mobile_phone [EM] light_bulb [EM] rocket.,This is early adopter.,1,2
+This is busts_in_silhouette [EM] loudspeaker [EM] speaker_high_volume.,This is loud crowd.,1,2
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common man.,0,6
+This is face_with_raised_eyebrow [EM] palms_up_together.,This is average merit.,0,6
+This is man [EM] man [EM] man [EM] man.,This is common land.,0,6
+This is soap [EM] t-shirt.,This is dirty overall.,1,1
+This is face_with_steam_from_nose [EM] speaking_head [EM] speech_balloon.,This is effective reprimand.,1,1
+This is memo [EM] OK_hand.,This is average merit.,1,1
+This is person_standing [EM] globe_showing_Americas [EM] person_standing.,This is far journey.,0,6
+This is neutral_face [EM] hundred_points.,This is average size.,0,6
+This is people_holding_hands [EM] women_holding_hands [EM] men_holding_hands [EM] woman_gesturing_OK.,This is average people.,1,0
+This is thumbs_up [EM] door.,This is effective entrance.,1,0
+This is man [EM] man [EM] man [EM] man.,This is common sailor.,0,6
+This is unamused_face [EM] anger_symbol [EM] man_frowning.,This is common nuisance.,1,2
+This is man [EM] man [EM] man [EM] man.,This is common nuisance.,0,6
+This is shushing_face [EM] shushing_face [EM] shushing_face.,This is dirty secret.,1,3
+This is face_with_spiral_eyes [EM] confounded_face [EM] backhand_index_pointing_right [EM] bathtub.,This is dirty fighter.,0,6
+This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far side.,0,6
+This is thumbs_up [EM] face_with_symbols_on_mouth.,This is effective step.,0,6
+This is ship [EM] anchor [EM] men_holding_hands.,This is common sailor.,1,1
+This is man [EM] man [EM] man [EM] man.,This is common housefly.,0,6
+This is pile_of_poo [EM] dollar_banknote [EM] money_bag.,This is dirty money.,1,0
+This is closed_book [EM] closed_book [EM] closed_book.,This is rare talent.,0,6
+This is money_bag [EM] money_bag [EM] money_bag.,This is fair price.,1,3
+This is man [EM] man [EM] man [EM] man.,This is common knowledge.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty work.,0,6
+This is door [EM] clinking_glasses.,This is effective entrance.,1,1
+This is warning [EM] warning [EM] warning.,This is common problem.,1,3
+This is feather.,This is light breeze.,0,6
+This is thumbs_up [EM] ladder.,This is effective step.,1,1
+This is money_bag [EM] balance_scale [EM] thumbs_up.,This is fair competition.,0,6
+This is man [EM] man [EM] man [EM] man.,This is common housefly.,0,6
+This is face_vomiting [EM] fork_and_knife_with_plate.,This is dirty secret.,0,6
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty job.,0,6
+This is wine_glass [EM] grapes [EM] sparkles.,This is fine wine.,1,2
+This is busts_in_silhouette [EM] busts_in_silhouette [EM] fly.,This is common man.,0,6
+This is palms_up_together [EM] sailboat [EM] man.,This is common sailor.,1,0
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty fighter.,1,1
+This is man [EM] man [EM] man [EM] man.,This is common housefly.,0,6
+This is sleepy_face [EM] world_map.,This is far journey.,1,1
+This is face_vomiting [EM] fork_and_knife_with_plate.,This is dirty dish.,1,0
+This is woman_walking [EM] person_walking [EM] sweat_droplets.,This is far trek.,1,1
+This is person_walking [EM] backpack [EM] evergreen_tree [EM] evergreen_tree.,This is far trek.,1,1
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty work.,0,6
+This is chart_increasing [EM] busts_in_silhouette [EM] arrows_counterclockwise.,This is popular opinion.,0,6
+This is play_button [EM] sailboat.,This is common sailor.,1,1
+This is squinting_face_with_tongue [EM] squinting_face_with_tongue [EM] counterclockwise_arrows_button.,This is common nuisance.,1,1
+This is angry_face [EM] man_office_worker [EM] thumbs_down.,This is angry customer.,1,2
+This is busts_in_silhouette [EM] man_blond_hair [EM] sailboat [EM] .,This is common sailor.,1,0
+This is woman_dancing [EM] clapping_hands.,This is effective entrance.,1,1
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty money.,0,6
+This is closed_book [EM] closed_book [EM] closed_book.,This is rare book.,1,3
+This is musical_note [EM] speaker_high_volume [EM] headphone.,This is loud crowd.,0,6
+This is magnifying_glass_tilted_right [EM] pencil [EM] OK_hand.,This is fine detail.,1,2
+This is cross_mark [EM] balance_scale [EM] flexed_biceps [EM] man_bald [EM] anger_symbol.,This is dirty job.,0,6
+This is palms_up_together [EM] brain.,This is common knowledge.,1,0
+This is palms_up_together [EM] writing_hand.,This is common ground.,0,6
+This is stopwatch [EM] world_map [EM] smiling_face_with_tear.,This is far country.,0,6
+This is thumbs_up [EM] face_with_symbols_on_mouth.,This is effective step.,0,6
+This is trophy [EM] direct_hit [EM] 1st_place_medal.,This is major problem.,0,6
+This is busts_in_silhouette [EM] fly [EM] cockroach [EM] spider [EM] busts_in_silhouette.,This is common nuisance.,1,1

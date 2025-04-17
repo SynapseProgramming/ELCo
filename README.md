@@ -1,3 +1,30 @@
+# The Modified Elco Repository
+
+## Prerequisites
+- This repository assumes that you have access to the NUS SOC compute cluster, with access to a H100 GPU
+- All experiments should complete in under an hour.
+
+## Changes
+We have made a couple of small changes to the original elco repository.
+
+- We added our own datasets to exp/entailment
+- We have added in scripts to run repository on slurm, with a H100 GPU
+
+## How to run
+
+### Only Evaluation
+1. Ensure that all dependencies in requirements.txt are fulfilled
+2. Modify scripts/slurm_unsupervised.sh by uncommenting the model to test, and comment out the rest.
+3. Run: ``` sbatch slurm_unsupervised.sh```
+
+### Finetune and evaluation
+1. Ensure that all dependencies in requirements.txt are fulfilled
+2. Modify scripts/slurm_fine-tune.sh by uncommenting the model to test, and comment out the rest.
+3. Run ```sbatch slurm_fine-tune.sh```
+
+
+
+
 # The ELCo Dataset
 
 This repo provides the dataset and official implementations for our paper <The ELCo Dataset: Bridging Emoji and Lexical Composition> @ [LREC-COLING 2024](https://lrec-coling-2024.org). \
